@@ -1,29 +1,40 @@
 <div *ngIf="groupedMatches | keyvalue; else noMatches" class="container mt-4">
-    <div *ngFor="let league of groupedMatches | keyvalue" class="mb-5">
-      <h3 class="text-center mb-4">{{ league.key }}</h3>
-      <div class="card">
-        <ul class="list-group list-group-flush">
-          <li *ngFor="let match of league.value" class="list-group-item">
-            <div class="d-flex justify-content-between align-items-center">
-              <!-- Equipos con logos -->
-              <div>
-                <img [src]="match.homeTeam.logo" alt="{{ match.homeTeam.name }}" class="img-fluid rounded" width="40" height="40">
-                {{ match.homeTeam.name }} vs {{ match.awayTeam.name }}
-                <img [src]="match.awayTeam.logo" alt="{{ match.awayTeam.name }}" class="img-fluid rounded" width="40" height="40">
-              </div>
-              <!-- Estado y Fecha -->
-              <div class="text-right">
-                <p class="mb-0">{{ match.state.description }}</p>
-                <p class="mb-0 text-muted">{{ match.date | date:'shortTime' }} - {{ match.date | date:'shortDate' }}</p>
-              </div>
+  <div *ngFor="let league of groupedMatches | keyvalue" class="mb-5">
+    <h3 class="text-center mb-4">{{ league.key }}</h3>
+    <div class="card">
+      <ul class="list-group list-group-flush">
+        <li *ngFor="let match of league.value" class="list-group-item">
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- Equipos con logos -->
+            <div>
+              <img [src]="match.homeTeam.logo" alt="{{ match.homeTeam.name }}" class="img-fluid rounded" width="40" height="40">
+              {{ match.homeTeam.name }} vs {{ match.awayTeam.name }}
+              <img [src]="match.awayTeam.logo" alt="{{ match.awayTeam.name }}" class="img-fluid rounded" width="40" height="40">
             </div>
-          </li>
-        </ul>
-      </div>
+            <!-- Estado y Resultado -->
+            <div class="text-right">
+              <!-- Mostrar mensaje si el partido no ha comenzado -->
+              <p *ngIf="!match.state.score.current" class="mb-0">
+                {{ match.state.description }}
+              </p>
+
+              <!-- Mostrar marcador cuando el partido está en progreso o ha terminado -->
+              <p *ngIf="match.state.score.current" class="mb-0">
+                {{ match.state.score.current }}
+              </p>
+
+              <!-- Mostrar la fecha y hora del partido -->
+              <p class="mb-0 text-muted">
+                {{ match.date | date:'shortTime' }} - {{ match.date | date:'shortDate' }}
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
-  
-  <ng-template #noMatches>
-    <p class="text-center">No hay partidos disponibles para hoy.</p>
-  </ng-template>
-  
+</div>
+
+<ng-template #noMatches>
+  <p class="text-center">No hay partidos disponibles para hoy.</p>
+</ng-template>

@@ -15,7 +15,6 @@ export class MatchesFeaturedComponent implements OnInit {
     this.footballDataService.getMatches().subscribe(
       (data) => {
         const matches = data.data;
-        // Agrupar los partidos por liga
         matches.forEach((match: any) => {
           const leagueName = match.league.name;
           if (!this.groupedMatches[leagueName]) {
