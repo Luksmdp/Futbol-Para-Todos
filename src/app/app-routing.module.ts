@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomePageComponent } from './component/home-page/home-page.component';
-import { NewsFeaturedComponent } from './component/news-featured/news-featured.component';
-import { CompetitionsFeaturedComponent } from './component/competitions-featured/competitions-featured.component';
-import { MatchesFeaturedComponent } from './component/matches-featured/matches-featured.component';
-import { TeamsFeaturedComponent } from './component/teams-featured/teams-featured.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
+import { NewsFeaturedComponent } from './components/news-featured/news-featured.component';
+import { CompetitionsFeaturedComponent } from './components/competitions-featured/competitions-featured.component';
+import { MatchesFeaturedComponent } from './components/matches-featured/matches-featured.component';
+import { TeamsFeaturedComponent } from './components/teams-featured/teams-featured.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },

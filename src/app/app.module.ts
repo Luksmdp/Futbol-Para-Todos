@@ -3,12 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomePageComponent } from './component/home-page/home-page.component';
-import { NavBarComponent } from './component/nav-bar/nav-bar.component';
-import { CompetitionsFeaturedComponent } from './component/competitions-featured/competitions-featured.component';
-import { TeamsFeaturedComponent } from './component/teams-featured/teams-featured.component';
-import { NewsFeaturedComponent } from './component/news-featured/news-featured.component';
-import { MatchesFeaturedComponent } from './component/matches-featured/matches-featured.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { CompetitionsFeaturedComponent } from './components/competitions-featured/competitions-featured.component';
+import { TeamsFeaturedComponent } from './components/teams-featured/teams-featured.component';
+import { NewsFeaturedComponent } from './components/news-featured/news-featured.component';
+import { MatchesFeaturedComponent } from './components/matches-featured/matches-featured.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MatchesFeaturedComponent } from './component/matches-featured/matches-f
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
