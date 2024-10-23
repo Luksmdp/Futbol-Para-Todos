@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { TeamsFeaturedComponent } from './components/teams-featured/teams-featured.component';
 
 const routes: Routes = [
-  { path: 'equipos', component: TeamsFeaturedComponent }
+  { path: '', component: TeamsFeaturedComponent },
+  { path: '**', component: TeamsFeaturedComponent }
 ];
 
 @NgModule({

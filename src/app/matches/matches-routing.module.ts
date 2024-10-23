@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { MatchesFeaturedComponent } from './components/matches-featured/matches-featured.component';
 
 const routes: Routes = [
-  { path: 'partidos', component: MatchesFeaturedComponent }
+  { path: '', component: MatchesFeaturedComponent },
+  { path: '**', component: MatchesFeaturedComponent }
 ];
 
 @NgModule({

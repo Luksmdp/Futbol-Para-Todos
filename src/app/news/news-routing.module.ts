@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { NewsFeaturedComponent } from './components/news-featured/news-featured.component';
 
 const routes: Routes = [
-  { path: 'noticias', component: NewsFeaturedComponent }
+  { path: '', component: NewsFeaturedComponent },
+  { path: '**', component: NewsFeaturedComponent }
 ];
 
 @NgModule({

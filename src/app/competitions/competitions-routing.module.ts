@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { CompetitionsFeaturedComponent } from './components/competitions-featured/competitions-featured.component';
 
 const routes: Routes = [
-  { path: 'competiciones', component: CompetitionsFeaturedComponent }, // Ruta principal para competiciones
+  { path: '', component: CompetitionsFeaturedComponent },
+  { path: '**', component: CompetitionsFeaturedComponent }
 ];
 
 @NgModule({

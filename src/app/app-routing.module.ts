@@ -1,10 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './components/home-page/home-page.component';
-import { MatchesRoutingModule } from './matches/matches-routing.module';
-import { NewsRoutingModule } from './news/news-routing.module';
-import { TeamsRoutingModule } from './teams/teams-routing.module';
-import { CompetitionsRoutingModule } from './competitions/competitions-routing.module';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent }, // Ruta principal para la página de inicio
@@ -17,11 +13,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes),
-    MatchesRoutingModule,
-    NewsRoutingModule,
-    TeamsRoutingModule,
-    CompetitionsRoutingModule
+    RouterModule.forRoot(routes)
   ],
   exports: [RouterModule]
 })
