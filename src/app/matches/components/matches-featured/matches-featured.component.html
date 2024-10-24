@@ -1,4 +1,7 @@
-<div *ngIf="groupedMatches | keyvalue; else noMatches" class="container mt-4">
+<app-matches-filter (filterEvent)="onFilterChange($event)"></app-matches-filter>
+
+<!-- Mostrar partidos si hay -->
+<div *ngIf="hasMatches(); else noMatches" class="container mt-4">
   <div *ngFor="let league of groupedMatches | keyvalue" class="mb-5">
     <h3 class="text-center mb-4">{{ league.key }}</h3>
     <div class="card">
@@ -13,14 +16,9 @@
             </div>
             <!-- Estado y Resultado -->
             <div class="text-right">
-              <!-- Mostrar mensaje si el partido no ha comenzado -->
-              <p *ngIf="!match.state.score.current" class="mb-0">
-                {{ match.state.description }}
-              </p>
-
-              <!-- Mostrar marcador cuando el partido está en progreso o ha terminado -->
-              <p *ngIf="match.state.score.current" class="mb-0">
-                {{ match.state.score.current }}
+              <!-- Mostrar resultado del partido y estado -->
+              <p class="mb-0">
+                {{ getMatchStatus(match) }} <!-- Mostrar estado del partido con resultado -->
               </p>
 
               <!-- Mostrar la fecha y hora del partido -->
@@ -35,6 +33,7 @@
   </div>
 </div>
 
+<!-- Mostrar mensaje si no hay partidos -->
 <ng-template #noMatches>
-  <p class="text-center">No hay partidos disponibles para hoy.</p>
+  <p class="text-center">No hay partidos disponibles para los filtros seleccionados.</p>
 </ng-template>
