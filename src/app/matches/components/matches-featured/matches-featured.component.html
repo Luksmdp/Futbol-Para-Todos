@@ -9,9 +9,9 @@
         <li *ngFor="let match of league.value" class="list-group-item">
           <div class="d-flex justify-content-between align-items-center">
             <!-- Equipos con logos -->
-            <div>
+            <div class="d-flex align-items-center">
               <img [src]="match.homeTeam.logo" alt="{{ match.homeTeam.name }}" class="img-fluid rounded" width="40" height="40">
-              {{ match.homeTeam.name }} vs {{ match.awayTeam.name }}
+              <span class="mx-2">{{ match.homeTeam.name }} vs {{ match.awayTeam.name }}</span>
               <img [src]="match.awayTeam.logo" alt="{{ match.awayTeam.name }}" class="img-fluid rounded" width="40" height="40">
             </div>
             <!-- Estado y Resultado -->

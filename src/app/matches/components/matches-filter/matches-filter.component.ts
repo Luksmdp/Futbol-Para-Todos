@@ -8,7 +8,7 @@ import { FormGroup, FormBuilder } from '@angular/forms';
 })
 export class MatchesFilterComponent implements OnInit {
   filterForm: FormGroup;
-  countries: string[] = ['Argentina', 'Brazil', 'Spain', 'Italy', 'France'];
+  countries: string[] = ['Argentina', 'Brazil', 'Spain', 'Italy', 'France','England'];
 
   @Output() filterEvent = new EventEmitter<{ date: string, country: string }>();
 

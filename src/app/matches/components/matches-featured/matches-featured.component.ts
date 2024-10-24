@@ -51,27 +51,43 @@ export class MatchesFeaturedComponent implements OnInit {
   }
 
   getMatchStatus(match: any): string {
-    const currentTime = new Date().getTime(); // Tiempo actual
-    const matchDate = new Date(match.date).getTime(); // Fecha del partido
+    const currentDate = new Date();
+    const matchDate = new Date(match.date);
+    const score = match.state.score?.current || 'No disponible';
+    const clock = match.state.clock;
+    const description = match.state.description;
 
-    // Si el partido está en juego
-    if (match.state.clock !== null && match.state.score.current !== null) {
-        return `En juego - ${match.state.score.current}`;
-    }
-
-    // Si el partido ha terminado
-    if (match.state.score.current) {
-        return `Finalizado - ${match.state.score.current}`;
-    }
-
-    // Si la fecha del partido es futura, entonces no ha comenzado
-    if (matchDate > currentTime) {
+    // Verificar si el partido aún no ha comenzado
+    if (currentDate < matchDate) {
         return 'No ha comenzado';
     }
 
-    // Para cualquier otro caso
-    return 'Estado desconocido';
+    // Verificar si el partido ha terminado
+    if (description === 'Finished' || description === 'Finished after penalties') {
+        return `Finalizado - ${score}`;
+    }
+
+    // Verificar si el partido está en diferentes fases del juego
+    if (description === 'First half' || description === 'Second half' || description === 'Halftime') {
+        return `${description} - ${score} (Minuto ${clock || 'No disponible'})`;
+    }
+
+    // Verificar si el partido está en progreso, pero el reloj es null
+    if (description === 'In progress') {
+        return `En progreso - ${score} ${clock !== null ? `(Minuto ${clock})` : '(Minuto no disponible)'}`;
+    }
+
+    // Verificar si el partido está en juego
+    if (description === 'In Play') {
+        return `En juego - ${score} (Minuto ${clock})`;
+    }
+
+    // Si no hay más información disponible
+    return 'Desconocido';
   }
+
+
+
 
 
 
