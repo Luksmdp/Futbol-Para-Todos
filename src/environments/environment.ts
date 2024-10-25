@@ -5,6 +5,6 @@ export const environment = {
     apiUrlTeams:'https://football-highlights-api.p.rapidapi.com/teams',
     apiHeaders: {
       'x-rapidapi-host': 'football-highlights-api.p.rapidapi.com',
-      'x-rapidapi-key': 'df7efde52amsh77cddb93fd71795p1b21fcjsndb5989adc208'
+      'x-rapidapi-key': '3c81862b04mshef79cda12bfe69fp124b3bjsn7da5465ea926'
     }
   };
