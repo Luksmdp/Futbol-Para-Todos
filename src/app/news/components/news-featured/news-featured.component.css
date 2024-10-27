@@ -1,66 +1,63 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+.card {
+  transition: transform 0.2s; /* Animación al hacer hover */
+  border-radius: 15px; /* Esquinas redondeadas */
+  border: none; /* Sin borde */
+  overflow: hidden; /* Oculta el desbordamiento */
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-translúcido */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra de tarjeta */
 }
-.container {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+.card:hover {
+  transform: scale(1.05); /* Aumenta el tamaño ligeramente al pasar el ratón */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Sombra más fuerte al hacer hover */
 }
-.news-layout {
-    display: flex;
-    flex-wrap: wrap;
+
+.card-img-top {
+  border-top-left-radius: 15px; /* Esquinas redondeadas */
+  border-top-right-radius: 15px; /* Esquinas redondeadas */
 }
-.featured-news {
-    flex: 2;
-    margin-right: 20px;
+
+.card-title {
+  font-weight: bold; /* Título más prominente */
+  color: #28a745; /* Color verde futbolero */
+  font-size: 1.5em; /* Tamaño del título */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra para destacar el texto */
 }
-.featured-news img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+
+.card-text {
+  color: #333; /* Color del texto de resumen más oscuro */
+  font-size: 1.1em; /* Tamaño de texto aumentado */
 }
-.featured-title {
-    font-size: 2em;
-    margin: 10px 0;
+
+.btn-primary {
+  background-color: #2d6a4f; /* Color verde más oscuro */
+  border-color: #2d6a4f; /* Color del borde del botón */
+  font-weight: bold; /* Texto del botón en negrita */
+  transition: background-color 0.3s; /* Transición suave al pasar el ratón */
 }
-.featured-summary {
-    font-size: 1.2em;
-    color: #666;
+
+.btn-primary:hover {
+  background-color: #1e4c3b; /* Color del botón al pasar el ratón */
+  border-color: #1e4c3b; /* Color del borde del botón al pasar el ratón */
 }
-.news-list {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+
+.card-body {
+  position: relative; /* Para posicionar elementos en relación con el cuerpo de la tarjeta */
 }
-.small-news {
-    display: flex;
-    flex-direction: row;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
+
+.card-body::before {
+  content: ''; /* Crea un pseudo-elemento */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/020/310/394/original/green-grass-texture-fresh-lawn-summer-grass-background-vector.jpg'); /* Fondo de césped */
+  opacity: 0.1; /* Semi-transparente */
+  z-index: 0; /* Detrás del contenido */
 }
-.small-news img {
-    width: 100px;
-    height: 70px;
-    object-fit: cover;
-    margin-right: 10px;
-    border-radius: 8px;
-}
-.small-news-title {
-    font-size: 1.1em;
-    margin: 0;
-}
-.small-news-summary {
-    font-size: 0.9em;
-    color: #666;
-}
-.small-news-date {
-    font-size: 0.8em;
-    color: #999;
+
+.card-body > * {
+  position: relative; /* Hace que el contenido esté por delante del fondo */
+  z-index: 1; /* Por delante del pseudo-elemento */
 }
