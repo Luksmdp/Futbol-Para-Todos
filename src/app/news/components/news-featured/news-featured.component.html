@@ -1,47 +1,15 @@
-<div class="container">
-    <h1>Últimas Noticias de Fútbol</h1>
-
-    <div class="news-layout">
-        <!-- Noticia destacada -->
-        <div class="featured-news">
-            <img src="placeholder-featured-image-url.jpg" alt="Imagen destacada">
-            <h2 class="featured-title">Título de la noticia destacada</h2>
-            <p class="featured-summary">Resumen de la noticia destacada. Este texto será reemplazado por el contenido de la API.</p>
-            <p class="featured-date">Fecha: 15 de octubre de 2024</p>
+<div class="container my-4">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let news of newsList">
+      <div class="card mb-4 shadow-lg" style="border: none; border-radius: 15px;">
+        <img *ngIf="news.image" [src]="news.image" class="card-img-top" alt="{{ news.title }}" style="height: 200px; object-fit: cover; border-radius: 15px 15px 0 0;">
+        <div class="card-body" style="background-color: rgba(255, 255, 255, 0.9); border-radius: 0 0 15px 15px;">
+          <h5 class="card-title" style="font-size: 1.5em; color: #28527a; font-weight: bold;">{{ news.title }}</h5>
+          <p class="card-text text-muted">{{ news.published_at | date:'mediumDate' }}</p>
+          <p class="card-text" style="color: #333; font-size: 1.1em;">{{ news.html_content | slice:0:100 }}...</p>
+          <a [href]="news.original_url" target="_blank" class="btn btn-primary" style="background-color: #2d6a4f; border: none; font-weight: bold;">Leer más</a>
         </div>
-
-        <!-- Lista de noticias pequeñas -->
-        <div class="news-list">
-            <!-- Noticia pequeña 1 -->
-            <div class="small-news">
-                <img src="placeholder-small-image-url1.jpg" alt="Imagen noticia 1">
-                <div>
-                    <h3 class="small-news-title">Título de la noticia 1</h3>
-                    <p class="small-news-summary">Resumen corto de la noticia 1.</p>
-                    <p class="small-news-date">Fecha: 14 de octubre de 2024</p>
-                </div>
-            </div>
-
-            <!-- Noticia pequeña 2 -->
-            <div class="small-news">
-                <img src="placeholder-small-image-url2.jpg" alt="Imagen noticia 2">
-                <div>
-                    <h3 class="small-news-title">Título de la noticia 2</h3>
-                    <p class="small-news-summary">Resumen corto de la noticia 2.</p>
-                    <p class="small-news-date">Fecha: 13 de octubre de 2024</p>
-                </div>
-            </div>
-
-            <!-- Noticia pequeña 3 -->
-            <div class="small-news">
-                <img src="placeholder-small-image-url3.jpg" alt="Imagen noticia 3">
-                <div>
-                    <h3 class="small-news-title">Título de la noticia 3</h3>
-                    <p class="small-news-summary">Resumen corto de la noticia 3.</p>
-                    <p class="small-news-date">Fecha: 12 de octubre de 2024</p>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-
+  </div>
 </div>

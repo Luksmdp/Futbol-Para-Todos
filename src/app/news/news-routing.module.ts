@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NewsFeaturedComponent } from './components/news-featured/news-featured.component';
+import { NewsFeaturedComponent} from './components/news-featured/news-featured.component';
 
 const routes: Routes = [
   { path: '', component: NewsFeaturedComponent },

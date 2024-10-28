@@ -1,13 +1,16 @@
 <div class="container">
-    <h1>Hoy en Fútbol</h1>
+    <h1>Hoy en Fútbol Para Todos</h1>
 
     <div class="homepage-layout">
         <!-- Noticia destacada -->
-        <div class="featured-news">
-            <img src="placeholder-featured-image-homepage.jpg" alt="Imagen noticia destacada">
-            <h2 class="featured-title">Noticia Importante del Día</h2>
-            <p class="featured-summary">Resumen de la noticia importante del día. Este texto será reemplazado por el contenido de la API.</p>
-            <p class="featured-date">Fecha: 15 de octubre de 2024</p>
+        <div class="featured-news d-flex align-items-start" *ngIf="featuredNews">
+            <img [src]="featuredNews.image" alt="Imagen noticia destacada" class="img-fluid" style="max-width: 150px; margin-right: 15px;"/>
+            <div>
+                <h2 class="featured-title">{{ featuredNews.title }}</h2>
+                <p class="featured-summary">{{ featuredNews.html_content | slice : 0 : 100 }}...</p>
+                <p class="featured-date">Fecha: {{ featuredNews.published_at }}</p>
+                <a [href]="featuredNews.original_url" target="_blank" class="btn btn-primary">Leer más</a>
+            </div>
         </div>
 
         <!-- Partidos importantes del día -->
@@ -18,7 +21,8 @@
             <div class="match">
                 <p class="match-date">15 de octubre de 2024 - 18:00</p>
                 <div class="teams">
-                    <span class="team">Equipo A</span> vs <span class="team">Equipo B</span>
+                    <span class="team">Equipo A</span> vs
+                    <span class="team">Equipo B</span>
                 </div>
             </div>
 
@@ -26,7 +30,8 @@
             <div class="match">
                 <p class="match-date">15 de octubre de 2024 - 20:00</p>
                 <div class="teams">
-                    <span class="team">Equipo C</span> vs <span class="team">Equipo D</span>
+                    <span class="team">Equipo C</span> vs
+                    <span class="team">Equipo D</span>
                 </div>
             </div>
 
@@ -34,7 +39,8 @@
             <div class="match">
                 <p class="match-date">15 de octubre de 2024 - 22:00</p>
                 <div class="teams">
-                    <span class="team">Equipo E</span> vs <span class="team">Equipo F</span>
+                    <span class="team">Equipo E</span> vs
+                    <span class="team">Equipo F</span>
                 </div>
             </div>
         </div>
