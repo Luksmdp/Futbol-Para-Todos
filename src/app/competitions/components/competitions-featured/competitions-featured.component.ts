@@ -10,7 +10,7 @@ import { StandingsServiceService } from '../../services/standings-service.servic
 export class CompetitionsFeaturedComponent implements OnInit {
 
   standings: Standing[] = [];
-  leagueId: number = 33973;
+  leagueId: number = 109712;
   season: number = 2024;
 
   constructor(private standingsService: StandingsServiceService) {}
@@ -28,6 +28,12 @@ export class CompetitionsFeaturedComponent implements OnInit {
         console.error('Error fetching standings:', error);
       }
     );
+  }
+
+  onFilterChanged(event: { leagueId: number, season: number }) {
+    this.leagueId = event.leagueId;
+    this.season = event.season;
+    this.fetchStandings();
   }
 
 }

@@ -1,0 +1,15 @@
+<div class="league-selector">
+    <div class="selector-group">
+      <label for="league">Liga:</label>
+      <select id="league" [(ngModel)]="selectedLeague">
+        <option *ngFor="let league of leagues" [value]="league.id">{{ league.name }}</option>
+      </select>
+    </div>
+    <div class="selector-group">
+      <label for="season">Temporada:</label>
+      <select id="season" [(ngModel)]="selectedSeason">
+        <option *ngFor="let season of seasons" [value]="season">{{ season }}</option>
+      </select>
+    </div>
+    <button (click)="onFilterClick()">Filtrar</button>
+  </div>

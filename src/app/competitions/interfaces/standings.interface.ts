@@ -33,4 +33,10 @@ export interface Team {
       name: string;
       season: number;
     };
+    
+  }
+
+  export interface LeagueOption  {
+    name: string;
+    id: number;
   }
