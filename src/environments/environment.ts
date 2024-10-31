@@ -13,7 +13,7 @@ export const environment = {
 
     apiNewsHeaders: {
       'x-rapidapi-host': 'football-news11.p.rapidapi.com',
-      'x-rapidapi-key': '36b892aeacmsh18e4c6f1e22aad2p16382ajsn7ea29c08eff1'
+      'x-rapidapi-key': '1fe7d2b86dmsh37c8b87897cd301p192317jsn03b40480d851'
     }
   };
 
@@ -30,3 +30,7 @@ export const environment = {
 // 36b892aeacmsh18e4c6f1e22aad2p16382ajsn7ea29c08eff1
 
 // c3726e5cbamsh50a32a59c87c4dap18fb0ejsn7b17a7c6ed7a
+
+// df7efde52amsh77cddb93fd71795p1b21fcjsndb5989adc208
+
+// 1fe7d2b86dmsh37c8b87897cd301p192317jsn03b40480d851
