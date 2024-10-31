@@ -1,8 +1,57 @@
-.card {
-    border-radius: 0.5rem;
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-  }
-  .list-group-item {
-    background-color: #f8f9fa;
-  }
-  
+
+body {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/020/310/394/original/green-grass-texture-fresh-lawn-summer-grass-background-vector.jpg');
+  background-size: cover; 
+  background-attachment: fixed; 
+}
+
+.matches-container {
+  background-color: rgba(3, 11, 0, 0.8); 
+  border-radius: 8px; 
+  padding: 20px; 
+}
+
+.league-section {
+  margin-bottom: 20px; 
+}
+
+.league-title {
+  font-size: 1.75em;
+  color: #f5f7f6; 
+  margin-bottom: 15px; 
+}
+
+.match-card {
+  background-color: rgba(255, 255, 255, 0.9); 
+  border: 2px solid #28a745; 
+  border-radius: 8px; 
+}
+
+.match-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.team-logo {
+  width: 50px; 
+  height: 50px; 
+  margin-right: 10px; 
+}
+
+.match-status {
+  font-weight: bold; 
+  color: #28a745; 
+}
+
+.match-time {
+  color: #555; 
+}
+
+.no-matches-message {
+  background-color: rgba(255, 255, 255, 0.9); 
+  border: 2px dashed #28a745; 
+  border-radius: 8px; 
+  padding: 20px; 
+  margin-top: 20px; 
+  font-size: 1.2em; 
+  color: #dc3545;
+}

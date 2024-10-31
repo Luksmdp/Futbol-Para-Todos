@@ -5,16 +5,13 @@
   <div class="row">
     <!-- Recorre los equipos -->
     <div class="col-12 col-md-6 col-lg-4" *ngFor="let team of teams">
-      <div class="card mb-4">
-        <!-- Mostrar el logo del equipo -->
-        <img [src]="team.logo || 'assets/no_image.png'" alt="{{ team.name }}" class="card-img-top" style="height: 150px; object-fit: contain;">
-
-        <!-- Mostrar el nombre del equipo -->
-        <div class="card-body text-center">
-          <h5 class="card-title">{{ team.name }}</h5>
-        </div>
+      <div class="team-circle">
+        <img 
+          [src]="team.logo || 'assets/no_image.png'" 
+          alt="{{ team.name }}" 
+          class="team-logo">
       </div>
+      <h5 class="team-title text-center">{{ team.name }}</h5>
     </div>
   </div>
 </div>
-

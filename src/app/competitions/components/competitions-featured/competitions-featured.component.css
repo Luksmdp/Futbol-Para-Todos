@@ -1,3 +1,16 @@
+.standings-title {
+  font-size: 2.5em; 
+  font-weight: bold; 
+  color: #fff; 
+  text-align: center;
+  margin: 20px auto; 
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); 
+  background-color: rgba(1, 97, 1, 0.5); 
+  padding: 10px 20px; 
+  border-radius: 10px; 
+  width: fit-content;
+}
+
 .standings-container {
   font-family: Arial, sans-serif;
   max-width: 1200px;
@@ -7,7 +20,7 @@
 
 h1 {
   text-align: center;
-  color: #3d195b;
+  color: #195b28;
 }
 
 table {
@@ -23,7 +36,7 @@ th, td {
 }
 
 th {
-  background-color: #3d195b;
+  background-color: #195b28;
   color: white;
 }
 
