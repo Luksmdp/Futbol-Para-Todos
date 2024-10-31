@@ -1,7 +1,7 @@
-<form class="mb-4" [formGroup]="filterForm" (ngSubmit)="onSubmit()">
+<form class="mb-4" [formGroup]="filterForm" (ngSubmit)="onSubmit()" class="team-filter-form">
   <div class="form-group">
-      <label for="team">Equipo:</label>
-      <input type="text" id="team" formControlName="team" class="form-control" placeholder="Ingrese el nombre del equipo">
+    <label for="team">Equipo:</label>
+    <input type="text" id="team" formControlName="team" class="form-control" placeholder="Ingrese el nombre del equipo">
   </div>
-  <button type="submit" class="btn btn-primary">Filtrar</button>
+  <button type="submit" class="btn btn-filter">Filtrar</button>
 </form>

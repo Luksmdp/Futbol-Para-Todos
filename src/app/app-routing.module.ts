@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'noticias', loadChildren: () => import('./news/news.module').then(m => m.NewsModule) },
   { path: 'partidos', loadChildren: () => import('./matches/matches.module').then(m => m.MatchesModule) },
   { path: 'equipos', loadChildren: () => import('./teams/teams.module').then(m => m.TeamsModule) },
+  { path: 'foro', loadChildren: () => import('./forum/forum.module').then(m => m.ForumModule) },
   { path: '**', redirectTo: '' } // Redirige a la página principal si no se encuentra la ruta
 ];
 

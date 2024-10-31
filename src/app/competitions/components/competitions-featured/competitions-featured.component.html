@@ -1,39 +1,42 @@
 <div class="standings-container">
-  <h1>Tabla de Posiciones</h1>
+  <h1 class="standings-title">Tabla de Posiciones</h1>
   <app-league-filter (filterChanged)="onFilterChanged($event)"></app-league-filter>
-  <table>
-    <thead>
-      <tr>
-        <th>Pos</th>
-        <th>Equipo</th>
-        <th>PJ</th>
-        <th>PG</th>
-        <th>PE</th>
-        <th>PP</th>
-        <th>GF</th>
-        <th>GC</th>
-        <th>DIF</th>
-        <th>Pts</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let team of standings">
-        <td>{{ team.position }}</td>
-        <td>
-          <div class="team-name">
-            <img [src]="team.team.logo" [alt]="team.team.name" class="team-logo">
-            {{ team.team.name }}
-          </div>
-        </td>
-        <td>{{ team.total.games }}</td>
-        <td>{{ team.total.wins }}</td>
-        <td>{{ team.total.draws }}</td>
-        <td>{{ team.total.loses }}</td>
-        <td>{{ team.total.scoredGoals }}</td>
-        <td>{{ team.total.receivedGoals }}</td>
-        <td>{{ team.total.scoredGoals - team.total.receivedGoals }}</td>
-        <td>{{ team.points }}</td>
-      </tr>
-    </tbody>
-  </table>
+  
+  <div class="table-responsive">
+    <table class="table table-bordered table-striped text-center">
+      <thead class="thead-dark">
+        <tr>
+          <th>Pos</th>
+          <th>Equipo</th>
+          <th>PJ</th>
+          <th>PG</th>
+          <th>PE</th>
+          <th>PP</th>
+          <th>GF</th>
+          <th>GC</th>
+          <th>DIF</th>
+          <th>Pts</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let team of standings" class="team-row">
+          <td>{{ team.position }}</td>
+          <td>
+            <div class="team-name d-flex align-items-center justify-content-center">
+              <img [src]="team.team.logo" [alt]="team.team.name" class="team-logo">
+              <span class="ml-2">{{ team.team.name }}</span>
+            </div>
+          </td>
+          <td>{{ team.total.games }}</td>
+          <td>{{ team.total.wins }}</td>
+          <td>{{ team.total.draws }}</td>
+          <td>{{ team.total.loses }}</td>
+          <td>{{ team.total.scoredGoals }}</td>
+          <td>{{ team.total.receivedGoals }}</td>
+          <td>{{ team.total.scoredGoals - team.total.receivedGoals }}</td>
+          <td>{{ team.points }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>

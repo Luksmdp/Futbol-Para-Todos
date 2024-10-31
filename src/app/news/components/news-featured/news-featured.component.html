@@ -6,7 +6,6 @@
         <div class="card-body" style="background-color: rgba(255, 255, 255, 0.9); border-radius: 0 0 15px 15px;">
           <h5 class="card-title" style="font-size: 1.5em; color: #28527a; font-weight: bold;">{{ news.title }}</h5>
           <p class="card-text text-muted">{{ news.published_at | date:'mediumDate' }}</p>
-          <p class="card-text" style="color: #333; font-size: 1.1em;">{{ news.html_content | slice:0:100 }}...</p>
           <a [href]="news.original_url" target="_blank" class="btn btn-primary" style="background-color: #2d6a4f; border: none; font-weight: bold;">Leer más</a>
         </div>
       </div>

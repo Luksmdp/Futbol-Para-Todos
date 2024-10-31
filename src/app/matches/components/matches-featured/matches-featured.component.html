@@ -1,49 +1,43 @@
-<app-matches-filter (filterEvent)="onFilterChange($event)"></app-matches-filter>
+<div class="container my-4">
+  <app-matches-filter (filterEvent)="onFilterChange($event)"></app-matches-filter>
 
-<!-- Mostrar partidos si hay -->
-<div *ngIf="hasMatches(); else noMatches" class="container mt-4">
-  <div *ngFor="let league of groupedMatches | keyvalue" class="mb-5">
-    <h3 class="text-center mb-4">{{ league.key }}</h3>
-    <div class="card">
-      <ul class="list-group list-group-flush">
-        <li *ngFor="let match of league.value" class="list-group-item">
-          <div class="d-flex justify-content-between align-items-center">
-            <!-- Equipos con logos -->
-            <div class="d-flex align-items-center">
-              <img 
-                [src]="match.homeTeam.logo ? match.homeTeam.logo : 'assets/no_image.png'"
-                alt="{{ match.homeTeam.name }}" 
-                class="img-fluid rounded" 
-                width="40" 
-                height="40">
-              <span class="mx-2">{{ match.homeTeam.name }} vs {{ match.awayTeam.name }}</span>
-              <img 
-                [src]="match.awayTeam.logo ? match.awayTeam.logo : 'assets/no_image.png'" 
-                alt="{{ match.awayTeam.name }}" 
-                class="img-fluid rounded" 
-                width="40" 
-                height="40">
+  <!-- Mostrar partidos si hay -->
+  <div *ngIf="hasMatches(); else noMatches" class="matches-container">
+    <div *ngFor="let league of groupedMatches | keyvalue" class="league-section mb-4">
+      <h3 class="league-title text-center">{{ league.key }}</h3>
+      <div class="card shadow-sm p-3 mb-4 match-card">
+        <ul class="list-group list-group-flush">
+          <li *ngFor="let match of league.value" class="list-group-item match-item">
+            <div class="d-flex justify-content-between align-items-center">
+              <!-- Equipos con logos -->
+              <div class="d-flex align-items-center team-section">
+                <img 
+                  [src]="match.homeTeam.logo ? match.homeTeam.logo : 'assets/no_image.png'"
+                  alt="{{ match.homeTeam.name }}" 
+                  class="team-logo">
+                <span class="team-names">{{ match.homeTeam.name }} vs {{ match.awayTeam.name }}</span>
+                <img 
+                  [src]="match.awayTeam.logo ? match.awayTeam.logo : 'assets/no_image.png'" 
+                  alt="{{ match.awayTeam.name }}" 
+                  class="team-logo">
+              </div>
+              <!-- Estado y Resultado -->
+              <div class="text-right match-info">
+                <p class="mb-0 match-status">{{ getMatchStatus(match) }}</p>
+                <p class="match-time">
+                  {{ match.date | date:'shortTime' }} - {{ match.date | date:'shortDate' }}
+                </p>
+              </div>
             </div>
-            <!-- Estado y Resultado -->
-            <div class="text-right">
-              <!-- Mostrar resultado del partido y estado -->
-              <p class="mb-0">
-                {{ getMatchStatus(match) }} <!-- Mostrar estado del partido con resultado -->
-              </p>
-
-              <!-- Mostrar la fecha y hora del partido -->
-              <p class="mb-0 text-muted">
-                {{ match.date | date:'shortTime' }} - {{ match.date | date:'shortDate' }}
-              </p>
-            </div>
-          </div>
-        </li>
-      </ul>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
 
-<!-- Mostrar mensaje si no hay partidos -->
-<ng-template #noMatches>
-  <p class="text-center">No hay partidos disponibles para los filtros seleccionados.</p>
-</ng-template>
+  <ng-template #noMatches>
+    <div class="no-matches-message text-center text-muted">
+      <p>No hay partidos disponibles para los filtros seleccionados.</p>
+    </div>
+  </ng-template>
+</div>

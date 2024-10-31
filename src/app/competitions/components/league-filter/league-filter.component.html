@@ -1,15 +1,17 @@
-<div class="league-selector">
+<div class="league-selector mb-4">
     <div class="selector-group">
-      <label for="league">Liga:</label>
-      <select id="league" [(ngModel)]="selectedLeague">
+      <label for="league" class="text-white">Liga:</label>
+      <select id="league" [(ngModel)]="selectedLeague" class="form-control">
         <option *ngFor="let league of leagues" [value]="league.id">{{ league.name }}</option>
       </select>
     </div>
+    
     <div class="selector-group">
-      <label for="season">Temporada:</label>
-      <select id="season" [(ngModel)]="selectedSeason">
+      <label for="season" class="text-white">Temporada:</label>
+      <select id="season" [(ngModel)]="selectedSeason" class="form-control">
         <option *ngFor="let season of seasons" [value]="season">{{ season }}</option>
       </select>
     </div>
-    <button (click)="onFilterClick()">Filtrar</button>
+    
+    <button (click)="onFilterClick()" class="btn btn-success">Filtrar</button>
   </div>

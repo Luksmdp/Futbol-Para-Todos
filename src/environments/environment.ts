@@ -6,14 +6,14 @@ export const environment = {
     apiUrlStandings: 'https://football-highlights-api.p.rapidapi.com/standings',
     apiHeaders: {
       'x-rapidapi-host': 'football-highlights-api.p.rapidapi.com',
-      'x-rapidapi-key': '3c81862b04mshef79cda12bfe69fp124b3bjsn7da5465ea926'
+      'x-rapidapi-key': 'df7efde52amsh77cddb93fd71795p1b21fcjsndb5989adc208'
     },
 
     apiUrlNews: 'https://football-news11.p.rapidapi.com/api/news-by-date?date=2024-01-01&lang=en&page=1',
 
     apiNewsHeaders: {
       'x-rapidapi-host': 'football-news11.p.rapidapi.com',
-      'x-rapidapi-key': 'c3726e5cbamsh50a32a59c87c4dap18fb0ejsn7b17a7c6ed7a'
+      'x-rapidapi-key': '36b892aeacmsh18e4c6f1e22aad2p16382ajsn7ea29c08eff1'
     }
   };
 
