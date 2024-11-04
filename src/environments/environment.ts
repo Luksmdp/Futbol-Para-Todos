@@ -13,7 +13,7 @@ export const environment = {
 
     apiNewsHeaders: {
       'x-rapidapi-host': 'football-news11.p.rapidapi.com',
-      'x-rapidapi-key': '1fe7d2b86dmsh37c8b87897cd301p192317jsn03b40480d851'
+      'x-rapidapi-key': '//1fe7d2b86dmsh37c8b87897cd301p192317jsn03b40480d851'
     }
   };
 
