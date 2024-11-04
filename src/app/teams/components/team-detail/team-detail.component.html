@@ -1,0 +1,30 @@
+<div class="team-detail-container" *ngIf="team">
+  <div class="team-circle">
+      <img [src]="team.crest" alt="{{ team.name }}" class="team-logo">
+  </div>
+  <h2 class="team-title">{{ team.name }} ({{ team.shortName }})</h2>
+
+  <div class="team-info">
+      <p><strong>Fundado:</strong> {{ team.founded }}</p>
+      <p><strong>Dirección:</strong> {{ team.address }}</p>
+      <p><strong>Estadio:</strong> {{ team.venue }}</p>
+      <p><strong>Sitio Web:</strong> <a [href]="team.website" target="_blank">{{ team.website }}</a></p>
+  
+      <h3>Entrenador: {{ team.coach.name }}</h3>
+      <p><strong>Nacionalidad:</strong> {{ team.coach.nationality }}</p>
+  
+      <h3>Competencias en Curso:</h3>
+      <ul>
+          <li *ngFor="let competition of team.runningCompetitions">
+              {{ competition.name }}
+          </li>
+      </ul>
+  
+      <h3>Plantilla:</h3>
+      <ul>
+          <li *ngFor="let player of team.squad">
+              {{ player.name }} - {{ player.position }}
+          </li>
+      </ul>
+  </div>
+</div>

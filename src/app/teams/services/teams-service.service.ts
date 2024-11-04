@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, tap } from 'rxjs';
 import { environment } from '../../../environments/environment';
 
 @Injectable({
@@ -8,7 +8,8 @@ import { environment } from '../../../environments/environment';
 })
 export class TeamsServiceService {
 
-  private apiUrl = environment.apiUrlTeams;
+  private apiUrlTeams = environment.apiUrlTeams;
+  private apiUrlTeamsDetail = environment.apiUrlTeamDetail;
   private headers = new HttpHeaders(environment.apiTeamsHeader);
 
   constructor(private http: HttpClient) {}
@@ -28,7 +29,13 @@ export class TeamsServiceService {
         throw new Error(`No code found for leagueCode: ${leagueCode}`);
     }
 
-    return this.http.get(`${this.apiUrl}${code}/teams`, { headers: this.headers });
+    return this.http.get(`${this.apiUrlTeams}${code}/teams`, { headers: this.headers });
+  }
+
+  getTeamDetails(teamId: number): Observable<any> {
+    return this.http.get(`${this.apiUrlTeamsDetail}${teamId}`, { headers: this.headers }).pipe(
+      tap(response => console.log('Response from API:', response))
+    );
   }
   
 

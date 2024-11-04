@@ -3,6 +3,7 @@ export const environment = {
     apiUrlMatches: 'https://football-highlights-api.p.rapidapi.com/matches',
     apiUrlCompetitions:'https://football-highlights-api.p.rapidapi.com/leagues',
     apiUrlTeams:'https://api.football-data.org/v4/competitions/',
+    apiUrlTeamDetail:'https://api.football-data.org//v4/teams/',
     apiUrlStandings: 'https://football-highlights-api.p.rapidapi.com/standings',
     apiHeaders: {
       'x-rapidapi-host': 'football-highlights-api.p.rapidapi.com',
@@ -15,7 +16,7 @@ export const environment = {
 
     apiNewsHeaders: {
       'x-rapidapi-host': 'football-news11.p.rapidapi.com',
-      'x-rapidapi-key': '//1fe7d2b86dmsh37c8b87897cd301p192317jsn03b40480d851'
+      'x-rapidapi-key': '1fe7d2b86dmsh37c8b87897cd301p192317jsn03b40480d851'
     }
   };
 
