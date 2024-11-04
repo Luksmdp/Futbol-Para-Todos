@@ -19,7 +19,7 @@ export class LeagueFilterComponent {
     { name: 'Inglaterra', id: 33973 }
   ];
 
-  selectedLeague: number = this.leagues[0].id; // Default to England
+  selectedLeague: number = this.leagues[0].id; // Default
   selectedSeason: number = 2024;
 
   seasons: number[] = [2024, 2023, 2022, 2021, 2020];

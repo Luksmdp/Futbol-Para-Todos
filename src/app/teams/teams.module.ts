@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { TeamsRoutingModule } from './teams-routing.module';
 import { TeamsFeaturedComponent } from './components/teams-featured/teams-featured.component';
 import { TeamsFilterComponent } from './components/teams-filter/teams-filter.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -12,7 +12,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     TeamsRoutingModule,
-    ReactiveFormsModule
+    FormsModule
   ]
 })
 export class TeamsModule { }

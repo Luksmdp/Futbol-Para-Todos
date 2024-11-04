@@ -9,16 +9,28 @@ import { environment } from '../../../environments/environment';
 export class TeamsServiceService {
 
   private apiUrl = environment.apiUrlTeams;
-  private headers = new HttpHeaders(environment.apiHeaders);
+  private headers = new HttpHeaders(environment.apiTeamsHeader);
 
   constructor(private http: HttpClient) {}
 
-  // Método para obtener los equipos
-  getTeams(teamName: string): Observable<any> {
-    const params = teamName ? { name: teamName } : undefined;
-    console.log('Petición con parámetro:', params); // Depuración
-    return this.http.get(this.apiUrl, { headers: this.headers, params });
+  getTeams(leagueCode: string): Observable<any> {
+    const leagueCodes: { [key: string]: string } = {
+        'Premier League': 'PL',
+        'Bundesliga': 'BL1',
+        'La Liga': 'PD',
+        'Serie A': 'SA',
+        'Ligue 1': 'FL1'
+    };
+
+    const code = leagueCodes[leagueCode];
+    
+    if (!code) {
+        throw new Error(`No code found for leagueCode: ${leagueCode}`);
+    }
+
+    return this.http.get(`${this.apiUrl}${code}/teams`, { headers: this.headers });
   }
+  
 
 }
 

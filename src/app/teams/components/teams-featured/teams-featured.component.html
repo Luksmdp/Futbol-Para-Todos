@@ -1,15 +1,11 @@
-<!-- Componente de filtro de equipos -->
+<!-- teams-featured.component.html -->
 <app-teams-filter (filterTeams)="onFilterTeams($event)"></app-teams-filter>
 
 <div class="container mt-4">
   <div class="row">
-    <!-- Recorre los equipos -->
-    <div class="col-12 col-md-6 col-lg-4" *ngFor="let team of teams">
+    <div class="col-12 col-md-6 col-lg-4" *ngFor="let team of filteredTeams">
       <div class="team-circle">
-        <img 
-          [src]="team.logo || 'assets/no_image.png'" 
-          alt="{{ team.name }}" 
-          class="team-logo">
+        <img [src]="team.logo" alt="{{ team.name }}" class="team-logo">
       </div>
       <h5 class="team-title text-center">{{ team.name }}</h5>
     </div>

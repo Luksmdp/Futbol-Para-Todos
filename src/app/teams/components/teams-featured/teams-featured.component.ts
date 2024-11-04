@@ -8,31 +8,27 @@ import { TeamsServiceService } from '../../services/teams-service.service';
 })
 export class TeamsFeaturedComponent implements OnInit {
 
-  teams: any[] = [];  // Almacenar equipos
+  teams: any[] = [];
+  filteredTeams: any[] = [];
 
   constructor(private teamsService: TeamsServiceService) {}
 
   ngOnInit(): void {
-    this.loadTeams(''); // Cargar los equipos inicialmente sin filtro
+    this.fetchTeams('Premier League'); // Cargar equipos de la liga por defecto (Premier League)
   }
 
-  // Método para cargar los equipos con o sin filtro
-  loadTeams(teamName: string): void {
-    this.teamsService.getTeams(teamName).subscribe(
-      response => {
-        this.teams = response.data; // Asignar la respuesta de los equipos al array
-      },
-      error => {
-        console.error('Error al obtener los equipos', error);
-      }
-    );
+  fetchTeams(leagueName: string): void {
+    this.teamsService.getTeams(leagueName).subscribe(response => {
+      this.teams = response.teams.map((team: any) => ({
+        id: team.id,
+        name: team.name,
+        logo: team.crest || 'assets/no_image.png'
+      }));
+      this.filteredTeams = [...this.teams];
+    });
   }
 
-  // Método que recibe el evento del componente hijo (teamsFilter)
-  onFilterTeams(teamName: string): void {
-    console.log('Filtro recibido en componente padre:', teamName); // Verificación
-    this.loadTeams(teamName); // Llama al método con el filtro
-}
-
-
+  onFilterTeams(leagueName: string): void {
+    this.fetchTeams(leagueName); // Obtener equipos de la liga seleccionada
+  }
 }

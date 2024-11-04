@@ -1,5 +1,5 @@
 import { Component, Output, EventEmitter } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { LeagueOption } from './interfaces/teams.interface';
 
 @Component({
   selector: 'app-teams-filter',
@@ -8,19 +8,21 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class TeamsFilterComponent {
 
-  @Output() filterTeams: EventEmitter<string> = new EventEmitter<string>();
-  filterForm: FormGroup;
+  @Output() filterTeams = new EventEmitter<string>(); // Emite el nombre de la liga
 
-  constructor(private fb: FormBuilder) {
-    this.filterForm = this.fb.group({
-      team: [''] // Campo para ingresar el nombre del equipo
-    });
+  leagues = [
+    { name: 'Premier League' },
+    { name: 'Bundesliga' },
+    { name: 'La Liga' },
+    { name: 'Serie A' },
+    { name: 'Ligue 1' }
+  ];
+
+  selectedLeagueName = this.leagues[0].name; // Cambia a nombre
+
+  onFilterClick(): void {
+    this.filterTeams.emit(this.selectedLeagueName); // Emitir el nombre de la liga seleccionada
   }
 
-  onSubmit(): void {
-    const teamName = this.filterForm.get('team')?.value;
-    console.log('Nombre del equipo a filtrar:', teamName); // Verificación
-    this.filterTeams.emit(teamName); // Emitir el nombre del equipo al componente padre
-}
 
 }

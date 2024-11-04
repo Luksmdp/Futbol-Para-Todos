@@ -1,7 +1,10 @@
-<form class="mb-4" [formGroup]="filterForm" (ngSubmit)="onSubmit()" class="team-filter-form">
-  <div class="form-group">
-    <label for="team">Equipo:</label>
-    <input type="text" id="team" formControlName="team" class="form-control" placeholder="Ingrese el nombre del equipo">
+<div class="league-selector mb-4">
+  <div class="selector-group">
+    <label for="league" class="text-white">Liga:</label>
+    <select id="league" [(ngModel)]="selectedLeagueName" class="form-control">
+      <option *ngFor="let league of leagues" [value]="league.name">{{ league.name }}</option>
+    </select>
   </div>
-  <button type="submit" class="btn btn-filter">Filtrar</button>
-</form>
+  
+  <button (click)="onFilterClick()" class="btn btn-success mt-2">Filtrar</button>
+</div>

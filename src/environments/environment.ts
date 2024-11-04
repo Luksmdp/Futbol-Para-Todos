@@ -2,12 +2,14 @@ export const environment = {
     production: false,
     apiUrlMatches: 'https://football-highlights-api.p.rapidapi.com/matches',
     apiUrlCompetitions:'https://football-highlights-api.p.rapidapi.com/leagues',
-    apiUrlTeams:'https://football-highlights-api.p.rapidapi.com/teams',
+    apiUrlTeams:'https://api.football-data.org/v4/competitions/',
     apiUrlStandings: 'https://football-highlights-api.p.rapidapi.com/standings',
     apiHeaders: {
       'x-rapidapi-host': 'football-highlights-api.p.rapidapi.com',
       'x-rapidapi-key': 'df7efde52amsh77cddb93fd71795p1b21fcjsndb5989adc208'
     },
+
+    apiTeamsHeader: {'X-Auth-Token': '4002fadd644c4aea843c173e10e6b31e'},
 
     apiUrlNews: 'https://football-news11.p.rapidapi.com/api/news-by-date?date=2024-01-01&lang=en&page=1',
 
