@@ -1,6 +1,6 @@
 body {
     background-color: #91eb9e; /* Color de fondo verde claro, puedes cambiarlo */
-    background-image: url('https://static.vecteezy.com/system/resources/previews/020/310/394/original/green-grass-texture-fresh-lawn-summer-grass-background-vector.jpg');
+    background-image: url('assets/green-grass-texture-fresh-lawn-summer-grass-background-vector.jpg');
     background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
     background-attachment: fixed; /* Fijar la imagen de fondo al hacer scroll */
 }
