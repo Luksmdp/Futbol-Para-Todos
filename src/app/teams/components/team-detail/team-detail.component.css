@@ -1,52 +1,59 @@
-/* Estilo para la imagen del equipo en un círculo */
-.team-circle {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background-color: rgba(24, 34, 24, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    position: relative;
-    border: 3px solid white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.team-logo {
-    width: 90%;
-    height: auto;
-}
-
-.team-title {
-    text-align: center;
-    color: white;
-    margin-top: 10px;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-}
-
 .team-detail-container {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     text-align: center;
     padding: 20px;
-}
+  }
+  
+  .player-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+  }
+  
+  .player-table th,
+  .player-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    color: #eee;
+  }
+  
+  .player-table th {
+    background-color: rgba(24, 34, 24, 0.8);
+    font-weight: bold;
+  }
+  
+  .player-table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .player-table tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  .team-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
 
-.team-info {
+  .back-button {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .btn-back {
+    background-color: #e4e4e4;
+    color: #333;
+    border: none;
+    padding: 8px 12px;
     font-size: 1em;
-    line-height: 1.5;
-    color: #ccc;
-}
-
-.team-info strong {
-    color: white;
-}
-
-h3 {
-    color: #ffffff;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-    margin-top: 20px;
-    font-size: 1.3em;
-}
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-back i {
+    margin-right: 5px;
+  }
+  

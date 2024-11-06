@@ -7,7 +7,7 @@
             <img [src]="featuredNews.image" alt="Imagen noticia destacada" class="img-fluid" style="max-width: 150px; margin-right: 15px;"/>
             <div>
                 <h2 class="featured-title">{{ featuredNews.title }}</h2>
-                <p class="featured-date">Fecha: {{ featuredNews.published_at }}</p>
+                <p class="featured-date">Fecha: {{ featuredNews.published_at | date:'mediumDate' }}</p>
                 <a [href]="featuredNews.original_url" target="_blank" class="btn btn-primary">Leer más</a>
             </div>
         </div>

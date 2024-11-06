@@ -19,7 +19,7 @@ export class MatchesServiceService {
     const params = {
       date: date || new Date().toISOString().split('T')[0],  // Usar la fecha actual si no se pasa una fecha
       limit: '10',
-      countryName: countryName   // Valor predeterminado si falta el país
+      countryName: countryName
     };
   
     return this.http.get(this.apiUrl, { headers: this.headers, params });

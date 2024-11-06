@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { TeamsServiceService } from '../../services/teams-service.service';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-team-detail',
@@ -13,10 +14,9 @@ export class TeamDetailComponent implements OnInit{
 
   constructor(
     private route: ActivatedRoute,
-    private teamsService: TeamsServiceService
-  ) {
-    console.log('TeamDetailComponent instanciado');
-  }
+    private teamsService: TeamsServiceService,
+    private location: Location
+  ) {}
 
   ngOnInit(): void {
     const teamId = this.route.snapshot.paramMap.get('id');
@@ -34,4 +34,7 @@ export class TeamDetailComponent implements OnInit{
     });
   }
 
+  goBack(): void {
+    this.location.back();
+  }
 }
