@@ -1,43 +1,139 @@
+/* Contenedor principal */
+.container {
+    background-color: rgba(1, 27, 1, 0.8);
+    color: rgba(253, 253, 253, 0.823); 
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
-    /* Contenedor principal */
-    .container {
-        background-color: rgba(1, 27, 1, 0.8);
-        color: rgba(253, 253, 253, 0.823); 
-        padding: 20px;
-        border-radius: 15px;
-        max-width: 1200px;
-        margin: 20px auto;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-    
-    /* Estilo de las noticias */
-    .featured-news {
-        background-color: rgba(255, 255, 255, 0.9); 
-        border-radius: 10px;
-        padding: 15px;
-        margin-bottom: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-    
-    .featured-news img {
-        max-width: 100%;
-        border-radius: 8px;
-        margin-bottom: 15px;
-    }
-    
-    .featured-title {
-        font-size: 1.8em;
-        color: #28527a;
-        font-weight: bold;
-    }
-    
-    .featured-summary {
-        color: #333;
-        font-size: 1.1em;
-    }
-    
-    .btn-primary {
-        background-color: #2d6a4f;
-        border: none;
-        font-weight: bold;
-    }
+/* Estilo de las noticias */
+.featured-news {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.featured-news img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.featured-title {
+    font-size: 1.8em;
+    color: #28527a;
+    font-weight: bold;
+}
+
+.featured-summary {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-primary {
+    background-color: #2d6a4f;
+    border: none;
+    font-weight: bold;
+}
+
+/* Estilos para los partidos */
+.matches-of-the-day {
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.league-section {
+    margin-bottom: 20px;
+}
+
+.league-title {
+    color: #28a745;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.match-card {
+    transition: transform 0.2s;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.match-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.match-item {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.team-section {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.team-logo {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+}
+
+.team-names {
+    margin: 0 5px;
+    color: #333;
+}
+
+.match-info {
+    text-align: right;
+    font-size: 0.8em;
+}
+
+.match-status {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.match-time {
+    color: #666;
+}
+
+.match-score {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Fondo de césped para los partidos */
+.match-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../../assets/green-grass-texture-fresh-lawn-summer-grass-background-vector.jpg');
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.match-item > * {
+    position: relative;
+}

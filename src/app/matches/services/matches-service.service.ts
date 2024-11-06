@@ -24,4 +24,13 @@ export class MatchesServiceService {
   
     return this.http.get(this.apiUrl, { headers: this.headers, params });
   }
+
+  getMatchesHome(): Observable<any> {
+    const params = {
+      date: new Date().toISOString().split('T')[0],
+      limit: '3'
+    };
+  
+    return this.http.get(this.apiUrl, { headers: this.headers, params });
+  }
 }

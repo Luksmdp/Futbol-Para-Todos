@@ -5,7 +5,7 @@ export const environment = {
     apiUrlStandings: 'https://football-highlights-api.p.rapidapi.com/standings',
     apiHeaders: {
       'x-rapidapi-host': 'football-highlights-api.p.rapidapi.com',
-      'x-rapidapi-key': 'df7efde52amsh77cddb93fd71795p1b21fcjsndb5989adc208'
+      'x-rapidapi-key': '1fe7d2b86dmsh37c8b87897cd301p192317jsn03b40480d851'
     },
     
     apiUrlTeams:'api/v4/competitions/',

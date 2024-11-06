@@ -2,15 +2,16 @@
   <app-matches-filter (filterEvent)="onFilterChange($event)"></app-matches-filter>
 
   <!-- Mostrar partidos si hay -->
-  <div *ngIf="hasMatches(); else noMatches" class="matches-container">
-    <div *ngFor="let league of groupedMatches | keyvalue" class="league-section mb-4">
-      <h3 class="league-title text-center">{{ league.key }}</h3>
-      <div class="card shadow-sm p-3 mb-4 match-card">
-        <ul class="list-group list-group-flush">
-          <li *ngFor="let match of league.value" class="list-group-item match-item">
+  <div class="matches-of-the-day">
+
+    <div *ngIf="hasMatches(); else noMatches" class="matches-container">
+      <div *ngFor="let league of groupedMatches | keyvalue" class="league-section mb-4">
+        <h3 class="league-title">{{ league.key }}</h3>
+        <div *ngFor="let match of league.value" class="match-card">
+          <div class="match-item">
             <div class="d-flex justify-content-between align-items-center">
               <!-- Equipos con logos -->
-              <div class="d-flex align-items-center team-section">
+              <div class="team-section">
                 <img 
                   [src]="match.homeTeam.logo ? match.homeTeam.logo : 'assets/no_image.png'"
                   alt="{{ match.homeTeam.name }}" 
@@ -22,15 +23,18 @@
                   class="team-logo">
               </div>
               <!-- Estado y Resultado -->
-              <div class="text-right match-info">
+              <div class="match-info">
                 <p class="mb-0 match-status">{{ getMatchStatus(match) }}</p>
                 <p class="match-time">
                   {{ match.date | date:'shortTime' }} - {{ match.date | date:'shortDate' }}
                 </p>
+                <p *ngIf="match.state.score.current" class="mb-0 match-score">
+                  {{ match.state.score.current }}
+                </p>
               </div>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
