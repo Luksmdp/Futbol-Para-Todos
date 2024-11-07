@@ -35,6 +35,10 @@
     font-size: 1.1em;
 }
 
+.featured-date {
+    color: #333;
+}
+
 .btn-primary {
     background-color: #2d6a4f;
     border: none;
@@ -136,4 +140,40 @@
 
 .match-item > * {
     position: relative;
+}
+
+/* Enlaces */
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    color: #155724;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  .link-card {
+    transition: transform 0.2s;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.link-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    z-index: 2;
 }

@@ -57,4 +57,20 @@
         </ng-template>
       </div>
     </div>
-  </div>
+
+    <div class="container mt-5">
+      <h2>Explora Más en Fútbol Para Todos</h2>
+      <div class="row">
+        <div class="col-md-4 mb-3" *ngFor="let link of links">
+          <div class="link-card">
+            <div class="card-body">
+              <h5 class="card-title">{{ link.title }}</h5>
+              <p class="card-text">{{ link.description }}</p>
+              <a [routerLink]="[link.route]" class="btn btn-success">Ir a {{ link.title }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+</div>

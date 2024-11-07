@@ -15,12 +15,42 @@ export class HomePageComponent implements OnInit {
   featuredNews: News | null = null; // Cambia a null inicialmente
   groupedMatches: { [key: string]: any[] } = {};
 
+  links = [
+    {
+      title: 'Noticias',
+      description: 'Mantente informado con las últimas noticias y eventos del mundo del fútbol.',
+      route: '/noticias'
+    },
+    {
+      title: 'Partidos',
+      description: 'Consulta los próximos partidos, resultados y estadísticas.',
+      route: '/partidos'
+    },
+    {
+      title: 'Competiciones',
+      description: 'Explora las diferentes ligas y competiciones de fútbol.',
+      route: '/competiciones'
+    },
+    {
+      title: 'Equipos',
+      description: 'Conoce a los equipos que participan en cada competición.',
+      route: '/equipos'
+    },
+    {
+      title: 'Foro',
+      description: 'Únete a la comunidad y comparte tu pasión por el fútbol.',
+      route: '/foro'
+    }
+  ];
+
   constructor(
     private newsService: FootballNewsService,
     private matchService: MatchesServiceService
   ) { }
 
   ngOnInit(): void {
+
+    
 
     this.loadTodaysMatches();
 
