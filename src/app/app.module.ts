@@ -7,6 +7,7 @@ import { SharedModule } from './shared/shared.module';
 import { provideHttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { HomePageComponent } from './components/home-page/home-page.component';
+import { ForumModule } from './forum/forum.module';
 
 
 
@@ -20,7 +21,8 @@ import { HomePageComponent } from './components/home-page/home-page.component';
     BrowserModule,
     AppRoutingModule,
     SharedModule,
-    CommonModule
+    CommonModule,
+    ForumModule 
   ],
   bootstrap: [AppComponent],
   providers: [provideHttpClient()]

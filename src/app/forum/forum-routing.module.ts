@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ForumComponent } from './components/forum.component';
-
+import { ForumListComponent } from './components/forum-list/forum-list.component';
+import { ForumCommentsComponent } from './components/forum-comments/forum-comments.component';
 
 const routes: Routes = [
-  { path: '', component: ForumComponent },
-  { path: '**', component: ForumComponent }
+  { path: '', component: ForumListComponent },
+  { path: ':id', component: ForumCommentsComponent },
+  { path: '**', component: ForumListComponent }
 ];
 
 @NgModule({

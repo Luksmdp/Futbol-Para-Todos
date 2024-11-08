@@ -1,0 +1,7 @@
+<div class="forum-container">
+  <h1>Foro</h1>
+  <div class="bubble" *ngFor="let topic of topics">
+    <a [routerLink]="['/foro', topic.id]" class="topic-title">{{ topic.title }}</a>
+    <p class="topic-description">{{ topic.description }}</p>
+  </div>
+</div>

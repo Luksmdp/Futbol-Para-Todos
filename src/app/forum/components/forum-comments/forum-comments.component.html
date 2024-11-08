@@ -1,0 +1,12 @@
+<h1>{{ topic?.title }}</h1>
+<p>{{ topic?.description }}</p>
+
+<div *ngFor="let comment of topic?.comments">
+  <strong>{{ comment.author }}:</strong> {{ comment.message }}
+</div>
+
+<form (submit)="addComment()">
+  <input type="text" placeholder="Autor" [(ngModel)]="newComment.author" name="author" required />
+  <input type="text" placeholder="Comentario" [(ngModel)]="newComment.message" name="message" required />
+  <button type="submit">Agregar Comentario</button>
+</form>
