@@ -1,0 +1,61 @@
+.forum-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3em; 
+  font-weight: 700; 
+  color: #fff;
+  text-align: center;
+  margin: 20px auto;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6); 
+  background-color: rgba(1, 97, 1, 0.7); 
+  padding: 15px 25px;
+  border-radius: 12px;
+  width: fit-content;
+  font-family: 'Poppins', sans-serif; 
+}
+
+.bubble {
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); 
+  padding: 20px 30px; 
+  margin: 15px 0;
+  width: 90%;
+  max-width: 10000px;
+  border: 2px solid #4CAF50;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.3s ease-in-out; 
+}
+
+.bubble:hover {
+  transform: scale(1.02); 
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25); 
+}
+
+.topic-title {
+  font-size: 1.8em;
+  color: #2E8B57; 
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 10px; 
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+
+.topic-title:hover {
+  text-decoration: underline;
+  color: #1f6e1f;
+}
+
+.topic-description {
+  font-size: 1.1em;
+  color: #555;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6; 
+}

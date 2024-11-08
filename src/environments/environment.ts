@@ -16,7 +16,7 @@ export const environment = {
     apiUrlNews: 'https://football-news11.p.rapidapi.com/api/news-by-date?date=2024-01-01&lang=en&page=1',
     apiNewsHeaders: {
       'x-rapidapi-host': 'football-news11.p.rapidapi.com',
-      'x-rapidapi-key': 'df7efde52amsh77cddb93fd71795p1b21fcjsndb5989adc208'
+      'x-rapidapi-key': 'c3726e5cbamsh50a32a59c87c4dap18fb0ejsn7b17a7c6ed7a'
     }
   };
 

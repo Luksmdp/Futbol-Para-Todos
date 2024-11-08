@@ -1,0 +1,16 @@
+<div class="topic-header">
+  <button (click)="goBack()" class="back-button">← Volver atras</button>
+  <h1>{{ topic?.title }}</h1>
+  <p class="topic-description">{{ topic?.description }}</p>
+</div>
+<form (submit)="addComment()" class="comment-form">
+  <input type="text" placeholder="Autor" [(ngModel)]="newComment.author" name="author" required class="form-input large-input1" />
+  <textarea placeholder="Comentario" [(ngModel)]="newComment.message" name="message" required class="form-input large-input2"></textarea>
+  <button type="submit" class="submit-button">Agregar Comentario</button>
+</form>
+<div class="comments-section" *ngFor="let comment of topic?.comments">
+  <div class="comment-bubble">
+    <strong class="comment-author">{{ comment.author }}</strong>
+    <p class="comment-message">{{ comment.message }}</p>
+  </div>
+</div>
