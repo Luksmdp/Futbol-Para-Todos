@@ -20,7 +20,8 @@ export class ForumService {
     return this.http.get<any>(`${this.apiUrl}/${id}`);
   }
 
-  addComment(topicId: number, comment: any): Observable<any> {
-    return this.http.post<any>(`${this.apiUrl}/${topicId}/comments`, comment);
+  updateComments(topicId: number, comments: any[]): Observable<any> {
+    return this.http.patch(`${this.apiUrl}/${topicId}`, { comments });
   }
+  
 }
