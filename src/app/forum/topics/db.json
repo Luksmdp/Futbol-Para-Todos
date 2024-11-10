@@ -2,779 +2,942 @@
   "topics": [
     {
       "id": "1",
-      "title": "Cuál es la mejor plantilla de La Liga",
-      "description": "En el caso de La Liga puede ser más sencillo saber cuál de los tres grandes o favoritos sea la mejor plantilla. Dejemos que los expertos dejen sus impresiones con motivos de peso al respecto. Barcelona , Madrid y Atlético, cuál y porque puede tener la mejor plantilla de esta próxima temporada 22-23. El mismo tema puede servir para que hagan el pronóstico de como quedará las posiciones y demás premios a disputar.",
+      "title": "Debate sobre el fútbol argentino: ¿Quién fue el mejor 10 de la historia?",
+      "description": "En este tema discutimos quién ha sido el mejor número 10 de la historia del fútbol argentino: Maradona, Messi o alguien más.",
       "comments": [
         {
-          "author": "xxjuve",
-          "message": "Para UCL Madrid. Para liga Barcelona."
+          "id": "1",
+          "author": "FanDeMessi",
+          "message": "Para mí, Messi es el mejor. Su consistencia y logros lo colocan por encima de todos.",
+          "replies": []
         },
         {
-          "author": "Misjano",
-          "message": "Creo que el Real Madrid tiene mejor once inicial, aunque si hablamos de la plantilla como tal, el Barcelona es más completo. Al Real Madrid le falta mejorar la línea suplente de la delantera."
+          "id": "2",
+          "author": "MaradonaFan",
+          "message": "Maradona tenía una magia que Messi no tiene. El gol contra Inglaterra es histórico.",
+          "replies": [
+            {
+              "author": "FanDeMessi",
+              "message": "Sí, pero Messi ha hecho cosas en clubes que Maradona no pudo lograr."
+            }
+          ]
         },
         {
-          "author": "Rafaelalvarez441",
-          "message": "El barcelona esta temporada con los fichajes q ha hecho promete bastante"
+          "id": "3",
+          "author": "SoccerLover",
+          "message": "Es una comparación difícil. Cada uno jugó en épocas diferentes, pero ambos son íconos.",
+          "replies": []
         },
         {
-          "author": "Mike_77",
-          "message": "Madrid, Barcelona y Aleti tienen plantel para competir bien en champions, que uno solo lo haga es preocupante. De momento tiene la pinta que los blancos están solos para mantener a flote el orgullo español."
+          "id": "4",
+          "author": "Futbolero20",
+          "message": "Para mí, el mejor fue Juan Román Riquelme. Su visión de juego era única.",
+          "replies": []
         },
         {
-          "author": "Alon",
-          "message": "El Madrid siempre tiene buen equipo"
+          "id": "5",
+          "author": "ElBeto",
+          "message": "No se puede comparar a Maradona con Messi. Maradona ganó un Mundial casi solo.",
+          "replies": []
         },
         {
-          "author": "Keane",
-          "message": "Es en serio? Real Madrid, lejos."
+          "id": "6",
+          "author": "PasionFutbolera",
+          "message": "El debate siempre será subjetivo. Lo bueno es que ambos son gigantes del fútbol argentino.",
+          "replies": []
         },
         {
-          "author": "Promanager10",
-          "message": "Barcelona"
+          "author": "aaaaa",
+          "message": "aaaaaaaaaaaaa",
+          "id": "7",
+          "replies": []
         }
       ]
     },
     {
       "id": "2",
-      "title": "Serie A de los 90s",
-      "description": "Algún dia vamos a hablar de como la Serie A a de los 90s era infinitamente superior a la EPL? MEJORES jugadores, mejores equipos, tácticas más sofisticadas y atractivas. Golazos, técnica, momentos históricos y equipos de época.",
+      "title": "Fútbol europeo: ¿Quién es el mejor club de la historia?",
+      "description": "¿Es el Real Madrid el club más grande de Europa? O tal vez el Barcelona o el Milan tienen más historia.",
       "comments": [
         {
-          "author": "Madridista",
-          "message": "Esa serie A eran monstruos"
+          "id": "1",
+          "author": "RealFan",
+          "message": "El Real Madrid, sin duda. 14 Champions lo demuestran.",
+          "replies": []
         },
         {
-          "author": "redsEvils666",
-          "message": "Eran otros tiempos, la elite del fútbol jugaba en la Serie A, ya después fue otra cosa."
+          "id": "2",
+          "author": "BarcaAlways",
+          "message": "El Barcelona tiene una historia y un estilo de juego que lo pone a la par del Madrid.",
+          "replies": [
+            {
+              "author": "RealFan",
+              "message": "Sí, pero en cuanto a títulos, el Real siempre estuvo por encima."
+            }
+          ]
         },
         {
-          "author": "Keane",
-          "message": "La premier league de los 90's no estaba llena de figuras mega mediáticas, esas estaban en Italia...."
+          "id": "3",
+          "author": "ACMilanFan",
+          "message": "El Milan tiene 7 Champions, más que Barcelona y mucho más que el Madrid en los 2000s.",
+          "replies": []
         },
         {
-          "author": "JuanCarlos90",
-          "message": "¿Recuerdan cuando el Milan dominaba con su defensa impenetrable? Maldini y Baresi eran una muralla"
+          "id": "4",
+          "author": "FootballHistorian",
+          "message": "No se puede negar que el Madrid ha sido el club más exitoso en la historia reciente del fútbol europeo.",
+          "replies": []
         },
         {
-          "author": "CalcioFan92",
-          "message": "La rivalidad entre Juventus e Inter en los 90 fue brutal. Cada partido era una guerra, especialmente cuando Ronaldo llegó al Inter."
+          "id": "5",
+          "author": "FootballLover",
+          "message": "Cada club tiene su época dorada, pero en cuanto a historia, el Madrid tiene una ventaja clara.",
+          "replies": []
         },
         {
-          "author": "Tifoso1990",
-          "message": "El Napoli de Maradona siempre será uno de los equipos más legendarios de la Serie A, aunque no haya ganado mucho después de él."
-        },
-        {
-          "author": "SerieA90sForever",
-          "message": "Creo que Roberto Baggio fue el jugador más mágico de esa década. Su toque de balón era único, un verdadero genio."
-        },
-        {
-          "author": "Interista90",
-          "message": "El Inter de los 90 también tuvo su brillo, con grandes jugadores como Giuseppe Bergomi. A veces me siento nostálgico por esos tiempos."
-        },
-        {
-          "author": "VecchiaSignora91",
-          "message": "La Juventus de los 90 con jugadores como Del Piero, Vieri y Zidane era un equipo de pura clase. Recuerdo ese golazo de Zidane contra el Torino."
-        },
-        {
-          "author": "ForzaMilan94",
-          "message": "Nunca olvidaré esa final de la Champions contra el Barcelona en 1994. Un Milan imparable, con un rendimiento histórico."
+          "id": "6",
+          "author": "BarcaFan",
+          "message": "En cuanto a estilo de juego, el Barcelona es superior. La era de Pep Guardiola fue inolvidable.",
+          "replies": []
         }
       ]
     },
     {
       "id": "3",
-      "title": "El impacto de Lionel Messi en el fútbol mundial",
-      "description": "Este tema explora cómo Lionel Messi ha influido en el fútbol moderno, tanto en su época en el Barcelona como en su transición al PSG y en su impacto en la selección argentina. Los comentarios giran en torno a su estilo de juego, sus logros y su legado.",
+      "title": "Fútbol inglés: ¿Quién es el mejor equipo de la Premier League?",
+      "description": "Debatimos sobre los mejores equipos en la historia de la Premier League: ¿Manchester United, Liverpool o Manchester City?",
       "comments": [
         {
-          "author": "MessiGOAT10",
-          "message": "Messi ha elevado el nivel del fútbol. Cada partido suyo es una obra de arte."
+          "id": "1",
+          "author": "UnitedFan",
+          "message": "El Manchester United ha sido el equipo más exitoso en la Premier League. No hay comparación.",
+          "replies": []
         },
         {
-          "author": "Futbolero2000",
-          "message": "El fútbol ya no será el mismo sin Messi. Ha cambiado el juego para siempre"
+          "id": "2",
+          "author": "CityFan",
+          "message": "El Manchester City está en su mejor momento. Guardiola está llevando al club a un nivel increíble.",
+          "replies": [
+            {
+              "author": "UnitedFan",
+              "message": "Sí, pero en cuanto a historia, el United sigue siendo el rey de Inglaterra."
+            }
+          ]
         },
         {
-          "author": "PichichiLeo",
-          "message": "A pesar de su edad, sigue demostrando que es el mejor del mundo. Su visión de juego es increíble."
+          "id": "3",
+          "author": "Liverbird",
+          "message": "El Liverpool tiene una historia increíble. Ya no solo es el pasado, sino que también está dominando en la actualidad.",
+          "replies": []
         },
         {
-          "author": "LaPulga94",
-          "message": "Desde que Messi llegó al Miami, el fútbol en EEUU ha ganado otra dimensión. Todos quieren verlo jugar."
+          "id": "4",
+          "author": "FootballDevotee",
+          "message": "Es difícil elegir. Los tres equipos tienen una gran historia y ahora están luchando al más alto nivel.",
+          "replies": []
         },
         {
-          "author": "FanDelBarça",
-          "message": "Nunca olvidaremos sus años en el Barcelona. Con él, el equipo vivió sus mejores momentos."
+          "id": "5",
+          "author": "RedDevil23",
+          "message": "El United tiene una tradición ganadora, la Premier es suya desde los tiempos de Ferguson.",
+          "replies": []
         },
         {
-          "author": "LeoElGenio",
-          "message": "¿Alguien más se emociona cada vez que Messi toma el balón? No hay otro jugador como él."
-        },
-        {
-          "author": " FutbolistaDesdeNiño",
-          "message": "El legado de Messi es inquebrantable. Ha ganado todo y sigue siendo imparable."
+          "id": "6",
+          "author": "TopFan",
+          "message": "Liverpool tiene una mezcla de historia y éxito reciente. Creo que es el mejor equipo de Inglaterra.",
+          "replies": []
         }
       ]
     },
     {
       "id": "4",
-      "title": "La mejor generación de jugadores brasileños",
-      "description": "Aquí se analiza la generación dorada de Brasil, que incluye figuras legendarias como Romario, Ronaldo, Rivaldo y Ronaldinho. Este tema destaca los logros de Brasil en los años 90 y 2000, como su victoria en la Copa del Mundo, y su estilo único de juego.",
+      "title": "El fútbol de los 90: ¿La mejor época del fútbol mundial?",
+      "description": "¿Fue la década de los 90 el mejor periodo del fútbol? Grandes jugadores y momentos inolvidables.",
       "comments": [
         {
-          "author": "OGlorioso10",
-          "message": "La generación de los 90 de Brasil con Romario y Bebeto fue una de las mejores de la historia."
+          "id": "1",
+          "author": "RetroFan",
+          "message": "Los 90 fueron mágicos. Maradona, Ronaldo, y grandes equipos como el Milan o el Barcelona de Cruyff.",
+          "replies": []
         },
         {
-          "author": "SambaFutbol",
-          "message": "Brasil siempre tiene magia. Con Ronaldo, Rivaldo y Ronaldinho, el fútbol brasileño era otra cosa."
+          "id": "2",
+          "author": "90sFutbol",
+          "message": "¡Claro! Esa época tuvo mucho talento, la calidad de los jugadores era increíble. ¡Y los mundiales de Italia 90 y USA 94!",
+          "replies": [
+            {
+              "author": "RetroFan",
+              "message": "¡Sí! Italia 90 fue un torneo muy disputado. Recuerdo los goles de Schillaci, y la tristeza de Argentina en la final."
+            }
+          ]
         },
         {
-          "author": "Futbolero92",
-          "message": "El Mundial 2002 es recordado por todos gracias a la genialidad de Rivaldo y Ronaldo, el fenómeno."
+          "id": "3",
+          "author": "GoldenEra",
+          "message": "No hay duda, los 90 marcaron el fin de una era. La rivalidad entre el Milan y el Barcelona de Cruyff fue espectacular.",
+          "replies": []
         },
         {
-          "author": "BrasilCampeon",
-          "message": "No hay nada como ver a Brasil jugar con ese estilo tan único. Ronaldinho es el ejemplo perfecto de lo que significa fútbol arte."
+          "id": "4",
+          "author": "FutbolHistorico",
+          "message": "Esos jugadores eran de otra categoría. Como el 'Fenómeno' Ronaldo y Roberto Baggio, que nos hacían soñar cada vez que jugaban.",
+          "replies": []
         },
         {
-          "author": "Cafu94",
-          "message": "Aún me emociono viendo los partidos de esa generación dorada. Cada uno de esos jugadores era especial."
+          "id": "5",
+          "author": "SoccerFan90s",
+          "message": "Cada partido de esa época era como una final. Nunca había tanta emoción como en los 90.",
+          "replies": []
         },
         {
-          "author": "TifosoSamba",
-          "message": "Cada Mundial de Brasil es una fiesta. Cuando jugaban esos cracks, el fútbol tenía una magia única."
-        },
-        {
-          "author": "RonaldoFan99",
-          "message": "Ronaldo 'El Fenómeno' fue un jugador que redefinió la posición de delantero. Pocos como él."
+          "id": "6",
+          "author": "WorldCupFan",
+          "message": "La magia de los 90 es única. Hoy en día el fútbol sigue siendo increíble, pero algo se ha perdido con los años.",
+          "replies": []
         }
       ]
     },
     {
       "id": "5",
-      "title": "La rivalidad entre Real Madrid y Barcelona",
-      "description": "Un tema que aborda la histórica rivalidad entre los dos gigantes del fútbol español. Los comentarios exploran momentos clave en los Clásicos, las figuras más representativas de cada club, y cómo estos partidos han influido en el fútbol mundial.",
+      "title": "La rivalidad entre Messi y Cristiano Ronaldo",
+      "description": "¿Quién es el mejor jugador del siglo? ¿Messi o Cristiano Ronaldo? Discute sobre su impacto en el fútbol.",
       "comments": [
         {
-          "author": "MerengueForever",
-          "message": "El clásico español nunca decepciona. La pasión y la historia detrás de estos equipos es increíble."
+          "id": "1",
+          "author": "MessiGOAT",
+          "message": "Messi es el mejor jugador de la historia. Su técnica y visión de juego son incomparables.",
+          "replies": []
         },
         {
-          "author": "CuléDeCorazón",
-          "message": "El Barça siempre será el mejor, y cada vez que derrotamos al Madrid es una victoria histórica."
+          "id": "2",
+          "author": "CR7Fan",
+          "message": "Cristiano ha ganado más títulos individuales y tiene una capacidad increíble para adaptarse a diferentes ligas.",
+          "replies": [
+            {
+              "author": "MessiGOAT",
+              "message": "Pero Messi ha hecho todo en un solo club, lo que demuestra su fidelidad y amor por el Barcelona."
+            }
+          ]
         },
         {
-          "author": "Cristiano11",
-          "message": "Con Cristiano Ronaldo, el Madrid dominaba el Clásico. Esos años fueron de pura magia."
+          "id": "3",
+          "author": "FootballFreak",
+          "message": "Ambos son fenomenales. No se puede negar el impacto de Cristiano en el Real Madrid y en su selección.",
+          "replies": []
         },
         {
-          "author": "ViscaElBarça",
-          "message": "La rivalidad es algo que marca el fútbol. Aunque el Madrid sea grande, el Barça tiene el mejor estilo."
+          "id": "4",
+          "author": "SoccerLover23",
+          "message": "Ambos son grandes, pero el estilo de Messi, con su juego asociado y su creatividad, lo hace especial.",
+          "replies": []
         },
         {
-          "author": "ZizouMagic",
-          "message": "El Clásico del 2002, cuando Zidane hizo ese golazo, es uno de los más recordados por los madridistas."
+          "id": "5",
+          "author": "FutbolistaDeCorazon",
+          "message": "Cristiano tiene una mentalidad de campeón que lo hace diferente. Su capacidad para mejorar cada año es impresionante.",
+          "replies": []
         },
         {
-          "author": "BlancoYVivo",
-          "message": "Cada vez que Madrid y Barça se enfrentan, es un partido de vida o muerte. No hay lugar para errores."
-        },
-        {
-          "author": "FanDeMessi",
-          "message": "El Madrid siempre es un gran rival, pero con Messi en el campo, el Barça siempre tenía ventaja."
+          "id": "6",
+          "author": "LegendsOfTheGame",
+          "message": "La comparación es difícil, pero al final, ambos han dejado un legado imborrable en el fútbol mundial.",
+          "replies": []
         }
       ]
     },
     {
       "id": "6",
-      "title": "Los mejores jugadores de la historia del fútbol argentino",
-      "description": "Este tema se enfoca en los grandes jugadores de Argentina, como Diego Maradona y Lionel Messi. Se discuten sus logros, sus estilos de juego y su influencia en la historia del fútbol, tanto a nivel nacional como internacional.",
+      "title": "La Copa del Mundo 2022: ¿El mejor Mundial de la historia?",
+      "description": "La final entre Argentina y Francia fue épica. ¿Es este el mejor Mundial de todos los tiempos?",
       "comments": [
         {
-          "author": "MaradonaDios",
-          "message": "Maradona fue el mejor jugador de todos los tiempos. No hay discusión, su talento era incomparable."
+          "id": "1",
+          "author": "WorldCupLover",
+          "message": "¡Argentina vs Francia fue increíble! Un final épico, no hay dudas de que este Mundial fue uno de los mejores.",
+          "replies": []
         },
         {
-          "author": "MessiAdicto",
-          "message": "A pesar de la sombra de Maradona, Messi sigue siendo el mejor de la historia de Argentina, ¡y de todos!"
+          "id": "2",
+          "author": "FutbolEnVivo",
+          "message": "La final tuvo todo: goles, emoción, decisiones polémicas... ¡Increíble ver a Messi levantar la copa!",
+          "replies": []
         },
         {
-          "author": "TifosoAlbiceleste",
-          "message": "El fútbol argentino tiene algo especial. Desde Di Stéfano hasta Messi, siempre ha dado leyendas."
+          "id": "3",
+          "author": "SoccerHistory",
+          "message": "Argentina hizo historia, pero no podemos olvidar el fútbol espectacular que mostró Francia durante todo el torneo.",
+          "replies": []
         },
         {
-          "author": "FutboleroArgentino",
-          "message": "Cuando Maradona levantó la Copa del Mundo, el fútbol argentino se ganó un lugar en la historia."
+          "id": "4",
+          "author": "ElFutbolista",
+          "message": "Lo que hizo Messi en este Mundial, jugando como un verdadero líder, lo coloca como el GOAT, sin dudas.",
+          "replies": []
         },
         {
-          "author": "PasiónAlbiceleste",
-          "message": "Los dos grandes: Maradona y Messi. Difíciles de comparar, pero ambos dejaron huella."
+          "id": "5",
+          "author": "WorldFootball",
+          "message": "Es el mejor Mundial que he visto. La calidad de los partidos, los goles, la competitividad... fue un espectáculo.",
+          "replies": []
         },
         {
-          "author": "BocaJrFan",
-          "message": "Maradona fue un dios en Boca, pero Messi es un dios en todo el mundo. Los dos son irreemplazables."
-        },
-        {
-          "author": "D10S89",
-          "message": "Siempre que veo un gol de Messi me acuerdo de la magia de Maradona. Argentina siempre fue grande en fútbol."
+          "id": "6",
+          "author": "PasionFutbolera",
+          "message": "¿Mejor que el 2014? Para mí sí, fue un torneo lleno de sorpresas y momentos inolvidables. El fútbol siempre sorprende.",
+          "replies": []
         }
       ]
     },
     {
       "id": "7",
-      "title": "La evolución de la Premier League",
-      "description": "En este tema se analiza cómo la Premier League ha crecido y evolucionado a lo largo de los años, desde la llegada de grandes entrenadores hasta la inversión extranjera y el surgimiento de equipos como Chelsea y Manchester City. Los comentarios destacan las transformaciones en la liga inglesa y sus competiciones más recientes.",
+      "title": "¿El fútbol femenino ha alcanzado su máximo nivel?",
+      "description": "El fútbol femenino está creciendo a pasos agigantados. ¿Estamos viendo la mejor época de la historia del fútbol femenino?",
       "comments": [
         {
-          "author": "PremierFan92",
-          "message": "La Premier League ha cambiado tanto en las últimas dos décadas. Ahora es la liga más competitiva del mundo."
+          "id": "1",
+          "author": "FutbolFemenino",
+          "message": "¡Definitivamente! El nivel de las jugadoras ahora es impresionante, estamos viendo un fútbol de alta calidad.",
+          "replies": []
         },
         {
-          "author": "TheRedDevil",
-          "message": "Desde la llegada de Sir Alex Ferguson, el Manchester United ha sido una dinastía en la Premier."
+          "id": "2",
+          "author": "SoccerFan",
+          "message": "Aunque ha crecido mucho, aún falta visibilidad y apoyo en muchas ligas. Pero las jugadoras están demostrando su potencial.",
+          "replies": []
         },
         {
-          "author": "Gunners94",
-          "message": "El Arsenal de los 2000 fue increíble. La temporada invicta es uno de los logros más grandes en la historia de la liga."
+          "id": "3",
+          "author": "FootballSupporter",
+          "message": "El fútbol femenino tiene mucho futuro, y con el crecimiento en los medios y el apoyo de grandes marcas, pronto será igual de popular que el masculino.",
+          "replies": []
         },
         {
-          "author": "BluesFanLondon",
-          "message": "Chelsea se ha convertido en uno de los grandes tras la inversión de Roman Abramovich. Antes no éramos nada."
+          "id": "4",
+          "author": "MujerFutbolera",
+          "message": "Es impresionante lo que logran las jugadoras, el talento de las chicas está al nivel de los mejores futbolistas del mundo.",
+          "replies": []
         },
         {
-          "author": "LiverpoolKing",
-          "message": "El Liverpool ha vuelto a la cima. El título de la Champions de 2019 y la Premier de 2020 demuestran que somos imbatibles."
+          "id": "5",
+          "author": "FutbolGlobal",
+          "message": "Veo que hay un progreso constante, pero todavía hay desigualdad en cuanto a sueldos y cobertura mediática. Es hora de cambiar eso.",
+          "replies": []
         },
         {
-          "author": "SpursForLife",
-          "message": "Tottenham sigue luchando por ganar la Premier. El fútbol en Inglaterra es tan impredecible."
-        },
-        {
-          "author": "PremierLeagueAddict",
-          "message": "La Premier siempre tiene algo especial. Cada temporada es más emocionante que la anterior."
+          "id": "6",
+          "author": "JuegaComoUnaPro",
+          "message": "El fútbol femenino ha mejorado muchísimo, y cada vez hay más niñas y jóvenes que sueñan con ser como Alex Morgan o Marta.",
+          "replies": []
         }
       ]
     },
     {
       "id": "8",
-      "title": "La historia de los equipos más grandes de Europa",
-      "description": "Este tema cubre la historia y los logros de los clubes más exitosos de Europa, como el Real Madrid, Barcelona, Bayern Munich y AC Milan. Se exploran sus títulos, sus leyendas y su impacto en el fútbol internacional.",
+      "title": "La mejor selección de fútbol de todos los tiempos",
+      "description": "¿Cuál es la selección de fútbol que ha sido más dominante en la historia? ¿Brasil 1970, España 2010, o Alemania 2014?",
       "comments": [
         {
-          "author": "ChampionsFan",
-          "message": "El Real Madrid siempre ha sido el equipo más dominante en Europa. La historia de la Champions no se puede contar sin él."
+          "id": "1",
+          "author": "SelecaoFan",
+          "message": "Brasil 1970 es la mejor selección de todos los tiempos. Pelé, Tostao, y un fútbol espectacular.",
+          "replies": []
         },
         {
-          "author": "BarçaSiempre",
-          "message": "El Barcelona ha sido una escuela de fútbol durante décadas. Jugadores como Messi y Xavi nos han dejado una huella imborrable."
+          "id": "2",
+          "author": "SpainFan",
+          "message": "España 2010 fue increíble. Jugaron el fútbol más elegante y eficaz que he visto. ¡El tiki-taka fue una maravilla!",
+          "replies": [
+            {
+              "author": "SelecaoFan",
+              "message": "Sí, pero lo que logró Brasil en 1970 con un fútbol tan ofensivo y libre no tiene comparación."
+            }
+          ]
         },
         {
-          "author": "Milanista90",
-          "message": "El AC Milan es uno de los clubes más grandes. Con figuras como Maldini y Shevchenko, siempre será recordado en la historia."
+          "id": "3",
+          "author": "GermanyFan",
+          "message": "No olvidemos a Alemania 2014. Con un juego eficiente y de equipo, derrotaron a Argentina en una final épica.",
+          "replies": []
         },
         {
-          "author": "BayernPower",
-          "message": "El Bayern Munich ha demostrado que no importa la liga, siempre están en la cima de Europa."
+          "id": "4",
+          "author": "FootballHistorian",
+          "message": "Cada una de esas selecciones dominó su época. Es difícil elegir solo una, ya que cada una tiene algo único.",
+          "replies": []
         },
         {
-          "author": "FootballLegend",
-          "message": "El impacto de estos clubes es innegable. Cada uno con su estilo único, pero todos con un legado impresionante."
+          "id": "5",
+          "author": "LegendaryFutbol",
+          "message": "¡Brasil 1970 fue una obra de arte! El fútbol de aquella selección fue poesía en movimiento.",
+          "replies": []
         },
         {
-          "author": "Galáctico",
-          "message": "El Madrid de los Galácticos fue algo nunca visto. Figo, Zidane, Ronaldo, todos juntos en un solo equipo."
-        },
-        {
-          "author": "RossoneroFan",
-          "message": "El Milan tuvo su mejor época en los años 2000, especialmente con la Champions de 2003. Inolvidable."
+          "id": "6",
+          "author": "FootballAllTime",
+          "message": "Para mí, España 2010 se lleva el título. El fútbol que jugaron era como un ballet, una maravilla verlos jugar.",
+          "replies": []
         }
       ]
     },
     {
       "id": "9",
-      "title": "El fútbol femenino: avances y retos",
-      "description": "Este tema analiza el crecimiento del fútbol femenino, los logros de selecciones y equipos, y los desafíos que enfrentan las jugadoras en cuanto a igualdad de oportunidades y visibilidad.",
+      "title": "El regreso de la Juventus a la élite europea",
+      "description": "La Juventus, tras años de frustraciones en Europa, ¿puede recuperar su lugar como uno de los grandes equipos de la Champions?",
       "comments": [
         {
-          "author": "MujeresEnElFutbol",
-          "message": "El fútbol femenino ha dado un salto enorme en los últimos años. Cada vez más visibilidad y respeto."
+          "id": "1",
+          "author": "JuveFan",
+          "message": "La Juventus siempre ha sido un equipo competitivo, pero las últimas temporadas no han sido favorables. ¿Este será su año?",
+          "replies": []
         },
         {
-          "author": "FutbolistaFeminista",
-          "message": "Las mujeres en el fútbol han demostrado su talento. Las ligas femeninas siguen creciendo y la calidad es impresionante."
+          "id": "2",
+          "author": "ChampionsLeagueFan",
+          "message": "Es difícil, el nivel de los equipos en Europa es muy alto, pero con jugadores como Vlahovic, no se puede descartar a la Juve.",
+          "replies": []
         },
         {
-          "author": "BarçaFemeninoFan",
-          "message": "El Barcelona femenino está arrasando en Europa. Son un ejemplo de dedicación y juego colectivo."
+          "id": "3",
+          "author": "FootballTactics",
+          "message": "Si logran encontrar la estabilidad defensiva de años anteriores y mejorar en ataque, podrían sorprender en la Champions.",
+          "replies": []
         },
         {
-          "author": "FutbolFemenino2024",
-          "message": "Es hora de que se reconozca de verdad el fútbol femenino. Las jugadoras merecen el mismo respeto que los hombres."
+          "id": "4",
+          "author": "SerieAlover",
+          "message": "La Juve siempre ha sido un equipo sólido, pero les falta esa chispa de magia en ataque para ganar la Champions.",
+          "replies": []
         },
         {
-          "author": "ChicasConBalón",
-          "message": "Estamos viendo una revolución en el fútbol femenino. Equipos como el Lyon, el Barça y los EEUU están abriendo caminos."
+          "id": "5",
+          "author": "TifosoJuve",
+          "message": "A pesar de los altibajos, siempre es emocionante ver a la Juve luchar por la Liga de Campeones. La historia está de su lado.",
+          "replies": []
         },
         {
-          "author": "EqualityForAll",
-          "message": "La brecha de género sigue siendo un problema, pero el fútbol femenino está dando pasos firmes hacia la igualdad."
-        },
-        {
-          "author": "MujeresDeBalón",
-          "message": "Con jugadoras como Alex Morgan, Marta y Sam Kerr, el fútbol femenino está recibiendo la atención que merece."
+          "id": "6",
+          "author": "Ciro10",
+          "message": "Creo que el regreso de Pogba puede ser clave para darle un empuje al mediocampo y fortalecer al equipo.",
+          "replies": []
         }
       ]
     },
     {
       "id": "10",
-      "title": "La importancia de la formación de jóvenes talentos",
-      "description": "Este tema aborda la clave de la formación de jóvenes futbolistas, desde las academias hasta los primeros equipos. Discute la importancia de la educación técnica, mental y física en el desarrollo de futuros grandes jugadores.",
+      "title": "La era de Zinedine Zidane en el Real Madrid",
+      "description": "Zinedine Zidane dejó un legado impresionante en el Real Madrid. ¿Qué tan grande es su impacto en la historia del club?",
       "comments": [
         {
-          "author": "AcademiaFutbol",
-          "message": "Las academias de fútbol son fundamentales para el futuro del deporte. Desde pequeños, los jugadores deben aprender tanto la técnica como la mentalidad ganadora."
+          "id": "1",
+          "author": "ZizouFan",
+          "message": "Zidane fue un entrenador fenomenal. Ganó 3 Champions consecutivas y eso ya lo coloca en la historia dorada del club.",
+          "replies": []
         },
         {
-          "author": "FuturoEstrella",
-          "message": "Muchos de los grandes talentos empiezan desde jóvenes. El trabajo en las categorías inferiores es crucial para formar profesionales de calidad."
+          "id": "2",
+          "author": "Madridista",
+          "message": "Bajo Zidane, el Real Madrid encontró la fórmula para la Champions. Su capacidad para manejar egos y crear un equipo cohesivo fue impresionante.",
+          "replies": [
+            {
+              "author": "ZizouFan",
+              "message": "Totalmente. Además, el equipo jugaba con una gran intensidad y todos sabían su rol en el campo."
+            }
+          ]
         },
         {
-          "author": "JovenPromesa",
-          "message": "Es impresionante ver cómo se forma a los jóvenes en academias como La Masia o el Ajax. Con el enfoque correcto, el talento puede florecer."
+          "id": "3",
+          "author": "FootballLover",
+          "message": "Zidane dejó un legado no solo en cuanto a títulos, sino también en la manera en que motivaba a sus jugadores. Era un líder en el vestuario.",
+          "replies": []
         },
         {
-          "author": "FutbolFormativo",
-          "message": "La formación no solo se trata de técnicas de juego. También es fundamental trabajar en la disciplina y la actitud mental."
+          "id": "4",
+          "author": "HistoryOfRealMadrid",
+          "message": "Su retiro fue un poco sorpresivo, pero sin duda su paso por el club dejó una huella imborrable, especialmente en la Champions.",
+          "replies": []
         },
         {
-          "author": "ScoutingFan",
-          "message": "Los cazatalentos están jugando un papel crucial. Encontrar a las futuras estrellas antes que otros clubes es esencial para el éxito a largo plazo."
+          "id": "5",
+          "author": "GalacticoFan",
+          "message": "Zidane tiene una visión del fútbol que pocos entrenadores tienen. Se centró en el equilibrio entre la ofensiva y la defensa, y eso se notaba en el campo.",
+          "replies": []
         },
         {
-          "author": "FutbolConCorazon",
-          "message": "El fútbol base es el cimiento de todo lo que vemos en las grandes ligas. Necesitamos cuidar de los jóvenes talentos."
-        },
-        {
-          "author": "NextGenFutbol",
-          "message": "Es increíble ver cómo las academias están produciendo jugadores de clase mundial. El futuro del fútbol está en buenas manos."
+          "id": "6",
+          "author": "MerengueFan",
+          "message": "En mi opinión, fue el mejor entrenador del Real Madrid en los últimos años. No solo ganó títulos, sino que también supo gestionar la plantilla con grandes estrellas.",
+          "replies": []
         }
       ]
     },
     {
       "id": "11",
-      "title": "La táctica y estrategia en el fútbol moderno",
-      "description": "Este tema discute cómo la táctica y la estrategia han evolucionado en el fútbol moderno. Se analizan las tendencias actuales, como el juego posicional, las transiciones rápidas y el uso de la tecnología.",
+      "title": "La evolución del fútbol en Inglaterra: Premier League 2024",
+      "description": "¿La Premier League de 2024 es la más competitiva de la historia? Equipos como el Manchester City y el Liverpool están marcando un antes y un después.",
       "comments": [
         {
-          "author": "TacticoFutbol",
-          "message": "La evolución de la táctica en el fútbol es fascinante. Los entrenadores modernos están llevando el juego a otro nivel."
+          "id": "1",
+          "author": "PLFan",
+          "message": "La Premier League de este año ha sido una de las más emocionantes. Manchester City y Liverpool compiten a un nivel impresionante.",
+          "replies": []
         },
         {
-          "author": "EstrategaFutbol",
-          "message": "El juego posicional, la presión alta y las transiciones rápidas son los pilares del fútbol actual. Los equipos que dominan estos aspectos suelen ser los más exitosos."
+          "id": "2",
+          "author": "RedDevilSupporter",
+          "message": "Aunque el Manchester United ha tenido sus dificultades, la calidad de la liga es innegable. Cada semana es una batalla entre grandes equipos.",
+          "replies": []
         },
         {
-          "author": "TacticaMaster",
-          "message": "Es impresionante cómo la estrategia se ha convertido en el aspecto más importante del fútbol moderno. No solo se trata de tener grandes jugadores, sino de saber cómo utilizarlos."
+          "id": "3",
+          "author": "FootyLover",
+          "message": "La inversión en jugadores internacionales ha elevado el nivel de la liga. Los partidos son más rápidos y las tácticas más complejas.",
+          "replies": []
         },
         {
-          "author": "TecnologiaFutbol",
-          "message": "La tecnología también está cambiando la forma en que vemos el fútbol. El VAR ha sido clave para mejorar la justicia en los partidos."
+          "id": "4",
+          "author": "LFCFan",
+          "message": "Liverpool, con su estilo de juego vertical y rápido, ha sido una inspiración para otros equipos. Su capacidad para mantener la intensidad es sorprendente.",
+          "replies": []
         },
         {
-          "author": "EntrenadorDelFuturo",
-          "message": "Los entrenadores hoy en día son más que simples tácticos. Necesitan ser líderes, psicólogos y estrategas a la vez."
+          "id": "5",
+          "author": "TheBluesFan",
+          "message": "Chelsea ha tenido una gran temporada, pero aún falta algo para llegar al nivel de City y Liverpool. La Premier League sigue siendo impredecible.",
+          "replies": []
         },
         {
-          "author": "FutbolDeHoy",
-          "message": "El fútbol está más organizado que nunca. Los equipos que no se adaptan a las nuevas tácticas tienden a quedarse atrás."
-        },
-        {
-          "author": "JuegoPosicional",
-          "message": "El juego posicional ha sido uno de los avances más importantes. Controlar el balón y los espacios es esencial en el fútbol moderno."
+          "id": "6",
+          "author": "SoccerKing",
+          "message": "La Premier League sigue siendo la liga más emocionante del mundo. Cualquier equipo puede ganar en cualquier momento, lo que hace que cada jornada sea impredecible.",
+          "replies": []
         }
       ]
     },
     {
       "id": "12",
-      "title": "Las leyendas del fútbol que cambiaron la historia",
-      "description": "Este tema celebra a las leyendas que han dejado una huella indeleble en el fútbol mundial, desde Pelé y Maradona hasta los más recientes como Ronaldo y Messi. Se analiza cómo su influencia ha transcendido más allá del deporte.",
+      "title": "La década dorada de la selección alemana (2000-2010)",
+      "description": "La selección alemana dominó el fútbol mundial durante la primera década del siglo XXI. ¿Cómo fue la evolución de este equipo que llegó a tres finales de grandes torneos?",
       "comments": [
         {
-          "author": "FutbolLeyenda",
-          "message": "Pelé y Maradona definieron una época. El fútbol no sería lo que es hoy sin ellos."
+          "id": "1",
+          "author": "GermanFan",
+          "message": "Desde 2000 hasta 2010, Alemania fue una de las selecciones más consistentes. Llegaron a dos finales de Eurocopa y a una de Mundial.",
+          "replies": []
         },
         {
-          "author": "GOATMessi",
-          "message": "Messi, como Maradona, ha logrado llevar a Argentina a lo más alto. Su legado es eterno."
+          "id": "2",
+          "author": "TacticsMaster",
+          "message": "La clave del éxito de Alemania en esos años fue su equilibrio entre jóvenes talentos y jugadores experimentados. El trabajo en equipo era su fortaleza.",
+          "replies": []
         },
         {
-          "author": "RonaldoFenomeno",
-          "message": "Ronaldo 'El Fenómeno' fue, sin duda, uno de los jugadores más talentosos que ha visto el fútbol."
+          "id": "3",
+          "author": "FootballHistory",
+          "message": "No podemos olvidar la final del Mundial 2002 contra Brasil, donde Alemania perdió, pero mostró una gran resistencia y espíritu de equipo.",
+          "replies": []
         },
         {
-          "author": "PeleFutbol",
-          "message": "Pelé es el rey del fútbol. Nadie tiene el mismo impacto cultural y futbolístico que él."
+          "id": "4",
+          "author": "WorldFootball",
+          "message": "El equipo de 2010, con jugadores como Özil, Schweinsteiger y Klose, jugó un fútbol ofensivo que sorprendió al mundo.",
+          "replies": []
         },
         {
-          "author": "MaradonaFan",
-          "message": "Maradona es el ejemplo de que el fútbol es más que un deporte, es una forma de vida. Su talento no tenía límites."
+          "id": "5",
+          "author": "FutbolTotal",
+          "message": "Alemania fue un equipo muy bien dirigido tácticamente. Siempre supieron cuándo atacar y cuándo defender. El fútbol alemán es sinónimo de trabajo duro.",
+          "replies": []
         },
         {
-          "author": "ZizouFan",
-          "message": "Zidane fue una figura clave en la historia del fútbol. Con su elegancia, hizo que el fútbol fuera aún más bello."
-        },
-        {
-          "author": "KakaFan",
-          "message": "Kaká es una de las figuras olvidadas en la historia, pero su clase y visión de juego eran impresionantes."
+          "id": "6",
+          "author": "SoccerGeek",
+          "message": "A pesar de no ganar en 2002 o 2008, la calidad del fútbol alemán siempre estuvo presente. Los partidos eran de un nivel muy alto.",
+          "replies": []
         }
       ]
     },
     {
       "id": "13",
-      "title": "La evolución de las ligas europeas",
-      "description": "Este tema explora cómo han evolucionado las principales ligas de fútbol en Europa, desde sus inicios hasta la actualidad. Se abordan los cambios en la competitividad, los jugadores estrella, y cómo el fútbol ha cambiado en cada liga a lo largo de los años.",
+      "title": "La despedida de Lionel Messi del FC Barcelona",
+      "description": "Lionel Messi dejó el FC Barcelona después de 21 años. ¿Cómo afectó su salida al club y al fútbol mundial?",
       "comments": [
         {
-          "author": "PremierFan",
-          "message": "La Premier League se ha convertido en la liga más competitiva del mundo. Cada temporada es más difícil predecir el campeón."
+          "id": "1",
+          "author": "LeoFan",
+          "message": "La salida de Messi fue un golpe durísimo para el Barcelona, pero también marcó el fin de una era dorada en el club.",
+          "replies": []
         },
         {
-          "author": "LaLigaFan",
-          "message": "La Liga siempre ha sido sinónimo de talento. El nivel de jugadores que ha tenido España es impresionante, desde Messi hasta CR7."
+          "id": "2",
+          "author": "CuléForever",
+          "message": "Messi es el mejor jugador de la historia del Barcelona. No solo sus goles, sino su influencia en el campo era indescriptible.",
+          "replies": []
         },
         {
-          "author": "SerieALegend",
-          "message": "La Serie A ha tenido una gran caída, pero aún sigue siendo un referente en cuanto a tácticas y defensas. Equipos como la Juventus siguen dominando."
+          "id": "3",
+          "author": "Futbolero",
+          "message": "Es triste ver cómo el club se desmoronó tras su salida. Sin Messi, el Barcelona perdió esa magia que los hacía tan especiales.",
+          "replies": []
         },
         {
-          "author": "BundesligaFan",
-          "message": "La Bundesliga ha crecido mucho en los últimos años. El Bayern Munich es el rey, pero equipos como el Dortmund y Leipzig están presionando."
+          "id": "4",
+          "author": "ViscaElBarça",
+          "message": "Es cierto, pero el Barcelona debe seguir adelante. Messi ya no está, pero el club tiene una historia que seguir escribiendo.",
+          "replies": [
+            {
+              "author": "LeoFan",
+              "message": "Totalmente. Messi fue el alma del club, pero también hay otros grandes jugadores que pueden hacer grande al Barcelona en el futuro."
+            }
+          ]
         },
         {
-          "author": "Ligue1Fan",
-          "message": "La Ligue 1, aunque dominada por el PSG, tiene una gran cantidad de jóvenes promesas que siguen demostrando su talento."
+          "id": "5",
+          "author": "MessiGOAT",
+          "message": "La salida de Messi cambió todo. El Barcelona nunca volverá a ser lo mismo sin él. Es el jugador más grande que ha existido.",
+          "replies": []
         },
         {
-          "author": "SerieAForever",
-          "message": "El fútbol italiano sigue teniendo un nivel táctico impresionante. Aunque no está en su mejor momento, sigue siendo una liga de calidad."
-        },
-        {
-          "author": "EPLChampion",
-          "message": "La Premier se ha convertido en la liga más importante, no solo por la competencia interna, sino por el dinero que mueve. Es una liga global."
+          "id": "6",
+          "author": "Barça2021",
+          "message": "La salida de Messi es el final de una era, pero también es una oportunidad para reconstruir el equipo alrededor de nuevos talentos.",
+          "replies": []
         }
       ]
     },
     {
       "id": "14",
-      "title": "El impacto de los entrenadores más exitosos",
-      "description": "Este tema aborda la influencia de los entrenadores más exitosos de la historia del fútbol, desde figuras como Sir Alex Ferguson y Arsène Wenger hasta los más recientes como Guardiola y Klopp. Se analiza cómo han cambiado la forma de jugar al fútbol.",
+      "title": "La selección argentina campeona del mundo 2022",
+      "description": "Argentina se coronó campeona del mundo en 2022. ¿Qué hizo que este equipo fuera tan especial y cuál fue el papel de Messi?",
       "comments": [
         {
-          "author": "FergusonFan",
-          "message": "Sir Alex Ferguson fue más que un entrenador, fue un líder. Su legado en el Manchester United es inmenso."
+          "id": "1",
+          "author": "AFAFan",
+          "message": "El equipo de Argentina en 2022 fue una máquina. Messi mostró que aún tiene mucho para dar, y el trabajo en equipo fue clave.",
+          "replies": []
         },
         {
-          "author": "WengerEra",
-          "message": "Wenger transformó el Arsenal y el fútbol inglés. Su filosofía de juego y su énfasis en la juventud cambiaron la Premier League."
+          "id": "2",
+          "author": "FutbolArgentino",
+          "message": "La defensa de Argentina fue espectacular. Romero y Otamendi, junto a Emiliano Martínez en el arco, fueron fundamentales.",
+          "replies": []
         },
         {
-          "author": "GuardiolaMaster",
-          "message": "Pep Guardiola ha revolucionado el fútbol moderno. Su enfoque en el control del balón y el juego posicional ha dejado huella en todo el mundo."
+          "id": "3",
+          "author": "MessiKing",
+          "message": "Es impresionante cómo Messi lideró a su equipo en todos los partidos. No solo marcó goles, sino que también fue el motor de la selección.",
+          "replies": []
         },
         {
-          "author": "KloppFan",
-          "message": "Jürgen Klopp ha dado una nueva identidad al Liverpool. Su estilo de presión y contraataque rápido es brutal."
+          "id": "4",
+          "author": "AlbicelesteFan",
+          "message": "La final contra Francia fue épica. No solo por el resultado, sino por la manera en que Argentina manejó la presión. Fue un equipo verdaderamente sólido.",
+          "replies": [
+            {
+              "author": "FutbolArgentino",
+              "message": "Totalmente. Y el gol de Ángel Di María en la final fue una obra maestra. Argentina jugó con mucha inteligencia táctica."
+            }
+          ]
         },
         {
-          "author": "AncelottiFan",
-          "message": "Carlo Ancelotti ha ganado en todas las ligas importantes. Su capacidad para manejar vestuarios y adaptar tácticas lo convierte en uno de los mejores."
+          "id": "5",
+          "author": "WorldFootball",
+          "message": "Este equipo de Argentina recordó mucho a la generación de 1986. El espíritu de lucha, la entrega y el corazón argentino fueron vitales para alcanzar la gloria.",
+          "replies": []
         },
         {
-          "author": "ConteTactician",
-          "message": "Antonio Conte es un genio táctico. Su enfoque en la defensa sólida y el contraataque ha llevado a varios equipos a la gloria."
-        },
-        {
-          "author": "MourinhoFan",
-          "message": "José Mourinho es un entrenador polémico, pero nadie puede negar su éxito. Ha ganado títulos en todos los equipos donde ha estado."
+          "id": "6",
+          "author": "Goleador2022",
+          "message": "Después de tanto sufrimiento, la Argentina de Scaloni logró lo que muchos creían imposible. ¡El fútbol mundial nunca olvidará este título!",
+          "replies": []
         }
       ]
     },
     {
       "id": "15",
-      "title": "La rivalidad Real Madrid vs Barcelona",
-      "description": "Este tema trata sobre una de las rivalidades más grandes del fútbol mundial: el clásico entre el Real Madrid y el Barcelona. Analiza la historia de esta rivalidad, los partidos más memorables y cómo ha influido en el fútbol global.",
+      "title": "El resurgir del AC Milan en la Serie A",
+      "description": "El AC Milan ha vuelto a ser protagonista en la Serie A. ¿Qué cambios en el club le han permitido competir nuevamente con los grandes?",
       "comments": [
         {
-          "author": "MadridistaForLife",
-          "message": "El Real Madrid siempre será el mejor. La historia y los títulos no se pueden discutir."
+          "id": "1",
+          "author": "Milanista",
+          "message": "Después de años de inestabilidad, el Milan ha vuelto a la élite del fútbol italiano. Pioli ha logrado hacer del equipo un bloque sólido.",
+          "replies": []
         },
         {
-          "author": "BarçaFan2000",
-          "message": "El Barcelona ha demostrado ser el mejor equipo en las últimas décadas. El juego de posesión y la filosofía del club son lo que lo hace único."
+          "id": "2",
+          "author": "SerieAFan",
+          "message": "El fichaje de Zlatan en su momento dio un empuje importante al club, pero el verdadero éxito ha sido el trabajo en conjunto de todos los jugadores.",
+          "replies": []
         },
         {
-          "author": "ElClasicoFan",
-          "message": "El clásico siempre es un espectáculo, independientemente de la situación de los equipos. Cada vez que se enfrentan, el fútbol se detiene."
+          "id": "3",
+          "author": "RossoneroForever",
+          "message": "El Milan ha vuelto a ser protagonista en Italia gracias a su estructura defensiva, pero también por el estilo de juego ofensivo que propone Pioli.",
+          "replies": []
         },
         {
-          "author": "ElBlancoDeMadrid",
-          "message": "Real Madrid es sinónimo de éxito. La rivalidad con el Barça solo ha aumentado la leyenda del club."
+          "id": "4",
+          "author": "CalcioFan",
+          "message": "Milan tiene una gran mezcla de jóvenes talentos y jugadores experimentados. Theo Hernández, Tomori y Leao son fundamentales para el equipo.",
+          "replies": [
+            {
+              "author": "Milanista",
+              "message": "Es cierto. Además, Donnarumma, aunque ya no está en el club, dejó una gran huella. Maignan es un gran sucesor."
+            }
+          ]
         },
         {
-          "author": "CuléSiempre",
-          "message": "El Barcelona siempre ha jugado el mejor fútbol, y con figuras como Messi, se ha logrado hacer historia."
+          "id": "5",
+          "author": "FootballTactics",
+          "message": "Es increíble cómo el Milan ha sabido evolucionar tácticamente. Pasaron de ser un equipo defensivo a tener una propuesta ofensiva muy interesante.",
+          "replies": []
         },
         {
-          "author": "Madridista100",
-          "message": "El Real Madrid ha sido el rey de Europa, y en los clásicos siempre ha mostrado su grandeza. El mejor equipo del mundo."
-        },
-        {
-          "author": "ViscaElBarça",
-          "message": "El Barça es más que un club, es una filosofía. Cada clásico es una oportunidad para demostrarlo."
+          "id": "6",
+          "author": "OldMilanFan",
+          "message": "Me emociona ver al Milan competir nuevamente en la Champions. Después de tantos años de decepciones, finalmente volvemos a estar en el camino correcto.",
+          "replies": []
         }
       ]
     },
     {
       "id": "16",
-      "title": "El impacto de las nuevas tecnologías en el fútbol",
-      "description": "Este tema aborda cómo la introducción de tecnologías como el VAR, los sistemas de análisis de datos y el uso de cámaras 360° están cambiando el fútbol. Se discuten los beneficios y las críticas a estos avances.",
+      "title": "El impacto de Kylian Mbappé en el fútbol mundial",
+      "description": "Kylian Mbappé se ha convertido en uno de los jugadores más deseados del mundo. ¿Es él el futuro del fútbol mundial?",
       "comments": [
         {
-          "author": "TechFutbol",
-          "message": "El VAR ha cambiado la forma en que vemos los partidos. Aunque sigue siendo polémico, ha mejorado la precisión de las decisiones."
+          "id": "1",
+          "author": "MbappéFan",
+          "message": "Mbappé ha sido una revelación en el fútbol mundial. A sus 24 años, ya ha conseguido todo. Es el futuro de este deporte.",
+          "replies": []
         },
         {
-          "author": "FutbolTechie",
-          "message": "El análisis de datos ha permitido a los entrenadores tomar decisiones mucho más informadas. Los equipos de fútbol ahora pueden ver el juego desde una perspectiva completamente nueva."
+          "id": "2",
+          "author": "PSGSupporter",
+          "message": "En el PSG, Mbappé es el jugador más importante. Su velocidad y su capacidad para marcar goles lo colocan como uno de los mejores del mundo.",
+          "replies": []
         },
         {
-          "author": "InnovadorFutbol",
-          "message": "El fútbol está más técnico que nunca. Las cámaras 360° y la tecnología de línea de gol nos dan una visión mucho más clara del juego."
+          "id": "3",
+          "author": "FootballTalent",
+          "message": "Lo que más impresiona de Mbappé es su madurez. Tiene la mentalidad de un jugador experimentado, pero es joven. Su futuro no tiene límites.",
+          "replies": []
         },
         {
-          "author": "CriticoVAR",
-          "message": "El VAR ha generado mucha controversia. No siempre mejora la experiencia del espectador, ya que interrumpe el ritmo del juego."
+          "id": "4",
+          "author": "SoccerLover",
+          "message": "Es increíble cómo Mbappé ha dominado la escena global, tanto en la Ligue 1 como en la Champions League. El mundo lo espera con los brazos abiertos.",
+          "replies": [
+            {
+              "author": "MbappéFan",
+              "message": "Estoy seguro de que se convertirá en el mejor jugador del mundo pronto. Solo necesita mantener la consistencia y seguir con su ética de trabajo."
+            }
+          ]
         },
         {
-          "author": "FutbolInteligente",
-          "message": "La tecnología ha transformado el fútbol, pero también debemos asegurarnos de que no se pierda la emoción y la imprevisibilidad del deporte."
+          "id": "5",
+          "author": "FutbolEnVivo",
+          "message": "El impacto de Mbappé en el fútbol mundial es innegable. Ya ha ganado la Copa del Mundo y tiene todo para seguir dominando la escena internacional.",
+          "replies": []
         },
         {
-          "author": "FutbolDelFuturo",
-          "message": "La tecnología en el fútbol está en constante evolución. ¿Quién sabe qué avances nos esperan en los próximos años?"
-        },
-        {
-          "author": "FutbolConData",
-          "message": "El uso de análisis de datos es crucial para entender patrones y estrategias de los jugadores. Esto puede marcar la diferencia entre ganar o perder."
+          "id": "6",
+          "author": "GlobalFootball",
+          "message": "Es fascinante ver cómo Mbappé ha logrado tanta notoriedad a una edad tan temprana. ¡Tiene el potencial de ser una leyenda del fútbol!",
+          "replies": []
         }
       ]
     },
     {
       "id": "17",
-      "title": "Los mejores partidos de la historia de la Champions League",
-      "description": "Este tema recoge los partidos más épicos de la UEFA Champions League, desde remontadas históricas hasta victorias inolvidables. Se analiza qué hizo especial a cada uno de estos partidos.",
+      "title": "La Juventus: ¿Reinventándose o cayendo en un ciclo negativo?",
+      "description": "La Juventus ha tenido un rendimiento irregular en los últimos años. ¿Está el club en una fase de transición o ha perdido su lugar entre los grandes de Europa?",
       "comments": [
         {
-          "author": "ChampionLeagueFan",
-          "message": "La final de 2005 entre el Liverpool y el Milan es, sin duda, uno de los mejores partidos de la historia. La remontada fue épica."
+          "id": "1",
+          "author": "JuveFan",
+          "message": "La Juventus ha estado perdiendo fuerza en los últimos años. Aunque tienen jugadores talentosos, su falta de consistencia es preocupante.",
+          "replies": []
         },
         {
-          "author": "MadridistaCL",
-          "message": "La final de 2014 entre el Real Madrid y el Atlético de Madrid fue inolvidable. ¡Esa remontada en los últimos minutos!"
+          "id": "2",
+          "author": "SerieAExpert",
+          "message": "Es cierto, pero creo que la Juventus está en una transición. El club necesita rejuvenecer su plantilla y apostar por el talento joven.",
+          "replies": []
         },
         {
-          "author": "BarçaFanChampions",
-          "message": "El 2-6 al Real Madrid en el Bernabéu fue una lección de fútbol. El Barcelona mostró su mejor versión ese día."
+          "id": "3",
+          "author": "ForzaJuve",
+          "message": "Aunque han tenido algunos altibajos, no podemos olvidar la historia de éxito de la Juve en la última década. Se necesitan ajustes, pero el club sigue siendo fuerte.",
+          "replies": []
         },
         {
-          "author": "MilanistaForever",
-          "message": "El Milan contra el Liverpool en 2005 fue un partido increíble. Perdimos en la final, pero el juego fue de otro nivel."
+          "id": "4",
+          "author": "Bianconero",
+          "message": "El problema principal de la Juventus es su falta de una identidad de juego clara. Deberían enfocarse en un estilo más dinámico y moderno.",
+          "replies": [
+            {
+              "author": "JuveFan",
+              "message": "Estoy de acuerdo, el estilo de juego de la Juve ha sido demasiado predecible. Necesitan un cambio táctico para competir en Europa."
+            }
+          ]
         },
         {
-          "author": "JuventusFan",
-          "message": "La Juventus ha tenido grandes partidos en la Champions, pero siempre se nos escapa el trofeo. Esperemos que pronto llegue la décima."
+          "id": "5",
+          "author": "CalcioVibes",
+          "message": "El fichaje de Dusan Vlahovic fue una buena movida, pero también necesitan reforzar otras áreas, como el mediocampo y la defensa, para volver a ser competitivos.",
+          "replies": []
         },
         {
-          "author": "AtléticoFan",
-          "message": "La final de 2016 contra el Real Madrid fue devastadora. Merecíamos ganar, pero el fútbol tiene esas sorpresas."
+          "id": "6",
+          "author": "Juventino2023",
+          "message": "Creo que la Juve puede recuperar su nivel con el tiempo. A veces las crisis son necesarias para una renovación más profunda.",
+          "replies": []
         }
       ]
     },
     {
       "id": "18",
-      "title": "Las mejores selecciones nacionales de la historia",
-      "description": "Este tema se enfoca en las selecciones nacionales más exitosas de la historia del fútbol. Analiza a equipos como Brasil, Alemania, Argentina, Francia e Italia, y sus logros en los mundiales y otros torneos internacionales.",
+      "title": "El regreso de la Copa América a Argentina",
+      "description": "Argentina ganó la Copa América 2021 después de 28 años sin títulos internacionales. ¿Qué significó este triunfo para el fútbol argentino?",
       "comments": [
         {
-          "author": "Brasil2014",
-          "message": "Brasil siempre será recordado por su increíble talento. Ganaron 5 Copas del Mundo, y su estilo de juego siempre ha sido único."
+          "id": "1",
+          "author": "AlbicelesteFan",
+          "message": "Este título significó mucho para Argentina, no solo por la sequía de títulos, sino porque mostró que el equipo puede ganar sin depender únicamente de Messi.",
+          "replies": []
         },
         {
-          "author": "DieHardArgentina",
-          "message": "Argentina tiene una de las mejores generaciones de futbolistas. Maradona y Messi son dos de los más grandes de todos los tiempos."
+          "id": "2",
+          "author": "SoccerLover",
+          "message": "La victoria en la Copa América fue un reflejo de la mentalidad y el trabajo en equipo. Desde Lionel Scaloni hasta los jugadores más jóvenes, todos jugaron un papel importante.",
+          "replies": []
         },
         {
-          "author": "FranciaElCampeon",
-          "message": "Francia ha sido muy dominante en los últimos años. Desde la Copa del Mundo 1998 hasta la reciente victoria en 2018, han demostrado ser una superpotencia."
+          "id": "3",
+          "author": "LaSelección2021",
+          "message": "Después de tanto tiempo, ver a Argentina levantar la Copa América fue una gran alegría. Y la manera en que vencieron a Brasil en la final fue épica.",
+          "replies": []
         },
         {
-          "author": "ItaliaLegendaria",
-          "message": "Italia siempre ha sido sinónimo de defensa sólida y organización. Con cuatro Copas del Mundo, tienen un legado impresionante."
+          "id": "4",
+          "author": "FutbolArgentino",
+          "message": "Lo más destacable de esa final fue el gol de Ángel Di María. Mostró su clase y su importancia para el equipo.",
+          "replies": [
+            {
+              "author": "AlbicelesteFan",
+              "message": "Di María es un jugador que ha estado en la sombra de Messi, pero su gol en la final demuestra que puede ser el héroe cuando más se necesita."
+            }
+          ]
         },
         {
-          "author": "GermanyDieMannschaft",
-          "message": "Alemania siempre ha sido un equipo de clase mundial. Su victoria en la Copa del Mundo 2014 es una de las más memorables."
+          "id": "5",
+          "author": "MessiFan2021",
+          "message": "Este título fue especial porque Messi, finalmente, consiguió el título internacional que le faltaba. Es el reconocimiento a su carrera.",
+          "replies": []
         },
         {
-          "author": "CopaMundialFan",
-          "message": "Es impresionante cómo cada una de estas selecciones tiene su propio estilo de juego, pero todas comparten una gran historia de éxito."
-        },
-        {
-          "author": "FutbolistaGlobal",
-          "message": "Algunas de estas selecciones tienen jugadores que se consideran los mejores del mundo. Las generaciones doradas siempre nos dejan un legado."
+          "id": "6",
+          "author": "CopaAmerica2021",
+          "message": "No solo Messi, sino todo el equipo mostró una gran mentalidad. A partir de esta victoria, Argentina tiene mucho futuro por delante.",
+          "replies": []
         }
       ]
     },
     {
       "id": "19",
-      "title": "El regreso del fútbol de clubes sudamericanos",
-      "description": "Este tema trata sobre el renacer del fútbol de clubes en Sudamérica. Con equipos como Flamengo, River Plate y Boca Juniors, la Copa Libertadores se ha vuelto más competitiva e interesante en los últimos años.",
+      "title": "El impacto de Cristiano Ronaldo en la Premier League",
+      "description": "Cristiano Ronaldo volvió a la Premier League en 2021, ¿pero ha logrado cambiar el rumbo del Manchester United o su regreso fue un error?",
       "comments": [
         {
-          "author": "FlamengoFan",
-          "message": "Flamengo ha sido un equipo dominante en Sudamérica en los últimos años. Su victoria en la Copa Libertadores fue épica."
+          "id": "1",
+          "author": "CR7Fan",
+          "message": "Cristiano sigue siendo un jugador de clase mundial, pero el Manchester United parece no encontrar el equilibrio con él en el equipo.",
+          "replies": []
         },
         {
-          "author": "BocaFan2019",
-          "message": "Boca Juniors siempre es un equipo de gran lucha. Cada vez que juegan, el fútbol argentino y sudamericano se detienen."
+          "id": "2",
+          "author": "ManUtdSupporter",
+          "message": "No creo que sea un error. Cristiano trae experiencia y goles. El problema está en el sistema de juego del equipo, que no le saca el máximo provecho.",
+          "replies": []
         },
         {
-          "author": "RiverFan",
-          "message": "River Plate está demostrando una vez más que es uno de los mejores equipos en Sudamérica, con una gran mezcla de juventud y experiencia."
+          "id": "3",
+          "author": "FootballEnthusiast",
+          "message": "Es cierto que Cristiano sigue siendo increíble, pero su presencia a veces interrumpe el flujo del juego. El United necesita jugar de manera más colectiva.",
+          "replies": []
         },
         {
-          "author": "Libertadores2024",
-          "message": "La Copa Libertadores sigue siendo el torneo más importante de Sudamérica. Los clubes de la región tienen mucho que ofrecer."
+          "id": "4",
+          "author": "RedDevilsFan",
+          "message": "Creo que el regreso de Cristiano puede ayudar a los jóvenes jugadores del United a mejorar. Ha jugado al más alto nivel durante tanto tiempo.",
+          "replies": [
+            {
+              "author": "CR7Fan",
+              "message": "Totalmente. Los jóvenes del United pueden aprender mucho de Cristiano, tanto dentro como fuera del campo."
+            }
+          ]
         },
         {
-          "author": "SantosFan",
-          "message": "El fútbol de clubes sudamericanos siempre ha tenido una gran historia. Es bueno ver que equipos como Santos y otros están regresando al primer plano."
+          "id": "5",
+          "author": "SoccerLover",
+          "message": "A pesar de sus goles, creo que el United necesita más que a Cristiano para volver a ser el equipo dominante que solía ser. La defensa y el mediocampo son claves.",
+          "replies": []
         },
         {
-          "author": "FutbolSudamericano",
-          "message": "El nivel del fútbol sudamericano sigue siendo muy alto. Las competiciones entre los clubes más importantes son espectaculares."
-        },
-        {
-          "author": "CopaLibertadoresFan",
-          "message": "El nivel de la Copa Libertadores de los últimos años ha sido impresionante. Los clubes sudamericanos siguen demostrando su calidad."
+          "id": "6",
+          "author": "PremierLeagueFan",
+          "message": "La Premier League sigue siendo una de las competiciones más emocionantes, y tener a Cristiano Ronaldo allí eleva aún más el nivel del fútbol inglés.",
+          "replies": []
         }
       ]
     },
     {
       "id": "20",
-      "title": "El impacto de los contratos millonarios en el fútbol",
-      "description": "Este tema examina cómo los contratos millonarios, los traspasos de alto valor y los sueldos de los jugadores han cambiado el panorama del fútbol moderno. Se analiza el impacto económico y las críticas que esto genera.",
+      "title": "La evolución del fútbol femenino en Europa",
+      "description": "El fútbol femenino ha crecido enormemente en Europa. ¿Qué equipos y jugadoras están liderando este cambio?",
       "comments": [
         {
-          "author": "FutbolMillonario",
-          "message": "Los contratos millonarios se han vuelto algo común en el fútbol moderno. Si bien trae más ingresos, también genera críticas por la desigualdad."
+          "id": "1",
+          "author": "FutbolFemenino",
+          "message": "El fútbol femenino ha dado un gran salto en Europa en los últimos años, y equipos como el Barcelona y el Lyon están liderando la competencia.",
+          "replies": []
         },
         {
-          "author": "MoneyAndFootball",
-          "message": "El dinero ha transformado el fútbol, pero también ha hecho que los clubes y jugadores se preocupen más por los negocios que por el amor al deporte."
+          "id": "2",
+          "author": "WomenFootballFan",
+          "message": "Es increíble ver cómo el fútbol femenino ha evolucionado. Jugadoras como Ada Hegerberg y Alexia Putella son ejemplos a seguir para todas las jóvenes.",
+          "replies": []
         },
         {
-          "author": "FanDeFutbol",
-          "message": "Aunque el dinero ha traído consigo más espectáculo, hay que tener en cuenta que a veces las decisiones se toman más por dinero que por pasión."
+          "id": "3",
+          "author": "FemFootball",
+          "message": "Aunque queda mucho por hacer, el fútbol femenino ya tiene una gran base de seguidores. La final de la Champions League femenina fue un espectáculo increíble.",
+          "replies": []
         },
         {
-          "author": "CR7Fan",
-          "message": "Cristiano Ronaldo y Messi son ejemplos de cómo los contratos millonarios pueden influir en el éxito. Han sido protagonistas tanto dentro como fuera del campo."
+          "id": "4",
+          "author": "FutbolFemenino2023",
+          "message": "Cada vez más clubes están invirtiendo en sus equipos femeninos. Eso es lo que se necesita para llevar el fútbol femenino a nuevas alturas.",
+          "replies": [
+            {
+              "author": "WomenFootballFan",
+              "message": "Exacto. A medida que crezca la inversión, veremos más talento emergente y mayores competencias entre los mejores equipos."
+            }
+          ]
         },
         {
-          "author": "ContratosFutbol",
-          "message": "Las cifras en los traspasos y contratos son tan grandes que es difícil pensar que todo se basa solo en el fútbol. Es un negocio multimillonario."
+          "id": "5",
+          "author": "FootballLover",
+          "message": "El cambio cultural es importante. Las mujeres han demostrado que pueden jugar al fútbol de élite, y el apoyo de los aficionados está creciendo.",
+          "replies": []
         },
         {
-          "author": "FutbolDeLujo",
-          "message": "Las grandes ligas y los clubes europeos han sido los más beneficiados de los contratos millonarios, pero esto ha generado una brecha con las ligas más pequeñas."
-        },
-        {
-          "author": "FutbolNegocio",
-          "message": "El fútbol ha dejado de ser solo un deporte. Con estos contratos millonarios, cada vez es más un negocio global."
-        }
-      ]
-    },
-    {
-      "id": "21",
-      "title": "La mentalidad de los grandes futbolistas",
-      "description": "Este tema analiza cómo la mentalidad y la psicología juegan un papel fundamental en el rendimiento de los futbolistas más exitosos. Se habla sobre la importancia de la resiliencia, el trabajo duro y el control emocional.",
-      "comments": [
-        {
-          "author": "MentalidadGanadora",
-          "message": "Los grandes futbolistas tienen una mentalidad de hierro. El trabajo duro y la resiliencia son lo que los separa del resto."
-        },
-        {
-          "author": "PsicologiaFutbol",
-          "message": "La psicología deportiva es esencial para los futbolistas. Las mentalidades ganadoras son las que consiguen títulos y dominan el juego."
-        },
-        {
-          "author": "RonaldoFanMentalidad",
-          "message": "Cristiano Ronaldo es el ejemplo perfecto de un jugador con una mentalidad imparable. Su ética de trabajo y concentración es ejemplar."
-        },
-        {
-          "author": "MessiMentalidad",
-          "message": "Messi, aunque más introvertido, también tiene una mentalidad ganadora. Su enfoque y trabajo constante son lo que lo convierten en el mejor."
-        },
-        {
-          "author": "EntrenadorMental",
-          "message": "Los entrenadores también tienen que trabajar la parte psicológica de los jugadores. La mentalidad es fundamental para el rendimiento."
-        },
-        {
-          "author": "MentalidadElite",
-          "message": "Un jugador de élite no solo se destaca por sus habilidades técnicas, sino por su mentalidad. El fútbol es también un juego mental."
-        },
-        {
-          "author": "FutbolConMentalidad",
-          "message": "En el fútbol moderno, la parte mental juega un papel tan importante como la técnica. Cada vez más jugadores trabajan en su psicología."
-        }
-      ]
-    },
-    {
-      "id": "22",
-      "title": "La globalización del fútbol",
-      "description": "Este tema explora cómo el fútbol se ha globalizado, cómo los jugadores de todo el mundo ahora juegan en ligas de diferentes países y cómo las competiciones se han expandido para llegar a una audiencia global.",
-      "comments": [
-        {
+          "id": "6",
           "author": "GlobalFootball",
-          "message": "El fútbol se ha convertido en un deporte verdaderamente global. Jugadores de todas partes del mundo ahora pueden jugar en las ligas más importantes."
-        },
-        {
-          "author": "FutbolInternacional",
-          "message": "La globalización ha traído consigo una mezcla de culturas en el fútbol. Ahora podemos ver jugadores de África, Asia y América Latina brillando en Europa."
-        },
-        {
-          "author": "EPLFanGlobal",
-          "message": "La Premier League es un claro ejemplo de globalización. Jugadores de todos los continentes se han incorporado a la liga más competitiva."
-        },
-        {
-          "author": "FutbolGlobalizado",
-          "message": "Las competiciones como la Champions League han ayudado a globalizar el fútbol, haciendo que cada vez más países tengan representación."
-        },
-        {
-          "author": "FutbolCultural",
-          "message": "El fútbol no solo ha llegado a todos los rincones del planeta, sino que ahora es un punto de encuentro entre diferentes culturas y tradiciones."
-        },
-        {
-          "author": "FutbolUniversal",
-          "message": "Lo mejor del fútbol es que trasciende las fronteras. Hoy en día, cualquier niño en cualquier parte del mundo puede soñar con jugar en Europa."
-        },
-        {
-          "author": "FandelBarca",
-          "message": "Quiero que vuelva messi al barca, que hace en miami?????"
+          "message": "Es solo el principio. El fútbol femenino en Europa está tomando forma y se está volviendo cada vez más competitivo. ¡Lo mejor está por venir!",
+          "replies": []
         }
       ]
     }

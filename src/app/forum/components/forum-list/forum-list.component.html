@@ -1,7 +1,30 @@
 <div class="forum-container">
   <h1>Foro</h1>
-  <div class="bubble" *ngFor="let topic of topics">
-    <a [routerLink]="['/foro', topic.id]" class="topic-title">{{ topic.title }}</a>
-    <p class="topic-description">{{ topic.description }}</p>
+  <button class="add-topic-button" (click)="toggleAddTopicForm()">Agregar nuevo tema</button>
+
+  <div *ngIf="showAddTopicForm" class="add-topic-form">
+    <h2>Nuevo Tema</h2>
+    <form (submit)="addNewTopic()">
+      <input type="text" placeholder="Título" [(ngModel)]="newTopic.title" name="title" required class="form-input" />
+      <textarea placeholder="Descripción" [(ngModel)]="newTopic.description" name="description" required class="form-input"></textarea>
+      <button type="submit" class="submit-button">Publicar Tema</button>
+    </form>
+  </div>
+
+  <div class="bubble" *ngFor="let topic of paginatedTopics">
+    <a [routerLink]="['/foro', topic.id]" class="topic-link">
+      <div class="topic-content no-select">
+        <h3 class="topic-title">{{ topic.title }}</h3>
+        <p class="topic-description">{{ topic.description }}</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="pagination">
+    <button *ngFor="let page of [].constructor(totalPages); let i = index" 
+            [class.active]="currentPage === i + 1"
+            (click)="changePage(i + 1)">
+      {{ i + 1 }}
+    </button>
   </div>
 </div>

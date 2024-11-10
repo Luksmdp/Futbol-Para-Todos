@@ -3,25 +3,29 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, tap } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ForumService {
   private apiUrl = 'http://localhost:3000/topics';
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   getTopics(): Observable<any> {
     return this.http.get(this.apiUrl).pipe(
-      tap((response) => console.log('Topics: ', response)) // Verifica la respuesta aquí
+      tap((response) => console.log('Topics: ', response)) 
     );
   }
 
-  getTopicById(id: number): Observable<any> {
+  getTopic(id: string): Observable<any> {
     return this.http.get<any>(`${this.apiUrl}/${id}`);
   }
 
-  updateComments(topicId: number, comments: any[]): Observable<any> {
-    return this.http.patch(`${this.apiUrl}/${topicId}`, { comments });
+  addTopic(newTopic: any): Observable<any> {
+    newTopic.id = newTopic.id.toString(); // Aseguramos que el id sea un string
+    return this.http.post<any>(this.apiUrl, newTopic);
   }
   
+  updateComments(topicId: string, comments: any[]): Observable<any> {
+    return this.http.patch(`${this.apiUrl}/${topicId}`, { comments });
+  }
 }
