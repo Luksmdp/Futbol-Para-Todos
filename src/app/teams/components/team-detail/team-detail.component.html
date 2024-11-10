@@ -1,4 +1,3 @@
-
 <div class="team-detail-container" *ngIf="team">
   <div class="back-button">
     <button (click)="goBack()" class="btn btn-back">
@@ -11,13 +10,15 @@
   <h2 class="team-title">{{ team.name }} ({{ team.shortName }})</h2>
 
   <div class="team-info">
+    <div class="coach-info">
+      <h3 class="coach-name">Entrenador: {{ team.coach.name }}</h3>
+      <p class="coach-details"><strong>Nacionalidad:</strong> {{ team.coach.nationality }}</p>
+    </div>
+
     <p><strong>Fundado:</strong> {{ team.founded }}</p>
     <p><strong>Dirección:</strong> {{ team.address }}</p>
     <p><strong>Estadio:</strong> {{ team.venue }}</p>
-    <p><strong>Sitio Web:</strong> <a [href]="team.website" target="_blank">{{ team.website }}</a></p>
-    
-    <h3>Entrenador: {{ team.coach.name }}</h3>
-    <p><strong>Nacionalidad:</strong> {{ team.coach.nationality }}</p>
+    <p><strong>Sitio Web: </strong> <a [href]="team.website" target="_blank">{{ team.website }}</a></p>
 
     <h3>Competencias en Curso:</h3>
     <ul>
@@ -38,7 +39,7 @@
       </thead>
       <tbody>
         <tr *ngFor="let player of team.squad">
-          <td>{{ player.name }}</td>
+          <td class="player-name">{{ player.name }}</td>
           <td>{{ player.position }}</td>
           <td>{{ player.dateOfBirth | date: 'yyyy-MM-dd' }}</td>
           <td>{{ player.nationality }}</td>

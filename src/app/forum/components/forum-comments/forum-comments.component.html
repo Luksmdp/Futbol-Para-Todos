@@ -1,16 +1,44 @@
 <div class="topic-header">
-  <button (click)="goBack()" class="back-button">← Volver atras</button>
+  <button (click)="goBack()" class="back-button">← Volver atrás</button>
   <h1>{{ topic?.title }}</h1>
   <p class="topic-description">{{ topic?.description }}</p>
 </div>
-<form (submit)="addComment()" class="comment-form">
-  <input type="text" placeholder="Autor" [(ngModel)]="newComment.author" name="author" required class="form-input large-input1" />
-  <textarea placeholder="Comentario" [(ngModel)]="newComment.message" name="message" required class="form-input large-input2"></textarea>
-  <button type="submit" class="submit-button">Agregar Comentario</button>
-</form>
-<div class="comments-section" *ngFor="let comment of topic?.comments">
+
+<!-- Formulario para agregar comentario -->
+<div class="comment-form-container">
+  <form (submit)="addComment()" class="comment-form">
+    <input type="text" placeholder="Autor" [(ngModel)]="newComment.author" name="author" required class="form-input" />
+    <textarea placeholder="Comentario" [(ngModel)]="newComment.message" name="message" required class="form-input"></textarea>
+    <button type="submit" class="submit-button">Agregar Comentario</button>
+  </form>
+</div>
+
+<!-- Comentarios -->
+<div *ngFor="let comment of topic?.comments">
   <div class="comment-bubble">
-    <strong class="comment-author">{{ comment.author }}</strong>
-    <p class="comment-message">{{ comment.message }}</p>
+    <div class="comment-header">
+      <strong class="comment-author">{{ comment.author }}</strong>
+      <p class="comment-message">{{ comment.message }}</p>
+    </div>
+
+    <div *ngIf="comment.replies && comment.replies.length > 0" class="replies-section">
+      <div *ngFor="let reply of comment.replies" class="reply">
+        <strong class="reply-author">{{ reply.author }}</strong>
+        <p class="reply-message">{{ reply.message }}</p>
+      </div>
+    </div>
+
+    <button *ngIf="replyToCommentId !== comment.id" (click)="replyToComment(comment.id)" class="reply-button">Responder</button>
+
+    <div *ngIf="replyToCommentId === comment.id" class="reply-form-container">
+      <form (submit)="addReply(comment)" class="reply-form">
+        <input type="text" placeholder="Autor" [(ngModel)]="newReply.author" name="author" required class="form-input" />
+        <textarea placeholder="Comentario" [(ngModel)]="newReply.message" name="message" required class="form-input"></textarea>
+        <div class="form-buttons">
+          <button type="submit" class="submit-button">Responder</button>
+          <button type="button" (click)="cancelReply()" class="cancel-button">Cancelar</button>
+        </div>
+      </form>
+    </div>
   </div>
 </div>

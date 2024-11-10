@@ -1,59 +1,90 @@
 .team-detail-container {
-    background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  background-color: #0a330aa4;
+  border-radius: 10px;
+}
+
+.btn-back {
+    align-self: flex-start;
+    background-color: #025732;
     color: white;
-    text-align: center;
-    padding: 20px;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
   }
   
-  .player-table {
-    width: 100%;
-    margin-top: 10px;
-    border-collapse: collapse;
-  }
-  
-  .player-table th,
-  .player-table td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #ccc;
-    color: #ffffff;
-  }
-  
-  .player-table th {
-    background-color: rgba(24, 34, 24, 0.8);
-    font-weight: bold;
-  }
-  
-  .player-table tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.1);
-  }
-  
-  .player-table tr:nth-child(odd) {
-    background-color: rgba(255, 255, 255, 0.05);
-  }
-  .team-info ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  .btn-back:hover {
+    background-color: #ffeb3b;
+    color: #007b45;
   }
 
-  .back-button {
-    margin-bottom: 10px;
-    text-align: left;
-  }
-  
-  .btn-back {
-    background-color: #e4e4e4;
-    color: #333;
-    border: none;
-    padding: 8px 12px;
-    font-size: 1em;
-    cursor: pointer;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .btn-back i {
-    margin-right: 5px;
-  }
-  
+.team-circle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.team-logo {
+  width: 150px;
+  height: 150px;
+
+}
+
+.team-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+
+.team-info {
+  position: relative;
+  padding: 20px;
+  background-color: rgba(189, 242, 199, 0.908);
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.coach-info {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  text-align: right;
+}
+
+.coach-name {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+.coach-details {
+  font-size: 14px;
+  color: #555;
+}
+
+.player-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.player-table th, .player-table td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+}
+
+.player-table th {
+  background-color: #065a36;
+  color: white;
+  font-weight: bold;
+}
+
+.player-name {
+  font-weight: bold;
+  color: #06530d;
+}
