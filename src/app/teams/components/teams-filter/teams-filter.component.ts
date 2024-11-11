@@ -18,10 +18,10 @@ export class TeamsFilterComponent {
     { name: 'Ligue 1' }
   ];
 
-  selectedLeagueName = this.leagues[0].name; // Cambia a nombre
+  selectedLeagueName = this.leagues[0].name;
 
   onFilterClick(): void {
-    this.filterTeams.emit(this.selectedLeagueName); // Emitir el nombre de la liga seleccionada
+    this.filterTeams.emit(this.selectedLeagueName);
   }
 
 

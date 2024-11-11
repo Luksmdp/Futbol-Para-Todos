@@ -57,7 +57,7 @@ export class HomePageComponent implements OnInit {
     this.newsService.getNews().subscribe(
       data => {
         if (data && data.length > 0) {
-          this.featuredNews = data[0]; // Obtén la primera noticia
+          this.featuredNews = data[0];
           console.log('Contenido de html_content:', this.featuredNews.html_content);
         }
       },

@@ -45,6 +45,9 @@ export class ForumCommentsComponent implements OnInit {
       });
       this.newComment = { author: '', message: '' };
     }
+    else{
+      alert("Por favor, complete todos los campos antes de publicar el comentario.");
+    }
   }
 
   addReply(comment: any): void {
@@ -62,6 +65,9 @@ export class ForumCommentsComponent implements OnInit {
       });
       this.newReply = { author: '', message: '' };
       this.replyToCommentId = null;
+    }
+    else{
+      alert("Por favor, complete todos los campos antes de publicar la respuesta.");
     }
   }
 

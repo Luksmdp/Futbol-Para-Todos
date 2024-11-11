@@ -29,6 +29,6 @@ export class TeamsFeaturedComponent implements OnInit {
   }
 
   onFilterTeams(leagueName: string): void {
-    this.fetchTeams(leagueName); // Obtener equipos de la liga seleccionada
+    this.fetchTeams(leagueName);
   }
 }

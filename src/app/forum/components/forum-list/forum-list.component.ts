@@ -53,5 +53,8 @@ export class ForumListComponent implements OnInit {
         this.newTopic = { id: '', title: '', description: '', comments: [] }; // Reiniciar formulario
       });
     }
+    else{
+      alert("Por favor, complete todos los campos antes de publicar el tema.");
+    }
   }
 }

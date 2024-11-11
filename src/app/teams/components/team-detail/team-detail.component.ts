@@ -28,9 +28,8 @@ export class TeamDetailComponent implements OnInit{
   getTeamDetails(teamId: number): void {
     this.teamsService.getTeamDetails(teamId).subscribe(response => {
       this.team = response;
-      console.log(this.team); // Verifica que estás recibiendo los datos
     }, error => {
-      console.error('Error al obtener detalles del equipo:', error); // Manejo de errores
+      console.error('Error al obtener detalles del equipo:', error);
     });
   }
 

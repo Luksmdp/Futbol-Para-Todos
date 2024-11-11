@@ -25,29 +25,3 @@
   background-color: #ffeb3b;
   color: #007b45;
 }
-
-/* Barra de búsqueda con borde redondeado */
-.search-bar .form-control {
-  border-radius: 25px;
-  padding: 8px 20px;
-  border: none;
-}
-
-.search-bar .search-btn {
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-}
-
-.icono-busqueda {
-  width: 24px;
-}
-
-.search-btn:hover {
-  background-color: #ffeb3b;
-  transition: background-color 0.3s;
-}

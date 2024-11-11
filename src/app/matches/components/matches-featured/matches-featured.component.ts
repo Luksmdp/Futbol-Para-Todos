@@ -7,12 +7,12 @@ import { MatchesServiceService } from '../../services/matches-service.service';
   styleUrls: ['./matches-featured.component.css']
 })
 export class MatchesFeaturedComponent implements OnInit {
-  groupedMatches: { [key: string]: any[] } = {}; // Inicializar como un objeto vacío
+  groupedMatches: { [key: string]: any[] } = {}; 
 
   constructor(private matchesService: MatchesServiceService) {}
 
   ngOnInit(): void {
-    this.loadMatches(); // Cargar partidos al inicializar
+    this.loadMatches();
   }
 
   loadMatches(date: string = '', country: string = 'Argentina'): void {
