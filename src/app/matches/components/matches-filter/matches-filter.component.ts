@@ -20,8 +20,9 @@ export class MatchesFilterComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    const today = new Date().toISOString().split('T')[0];
     this.filterForm = this.formBuilder.group({
-      date: [''],
+      date: [today],
       country: ['Argentina']
     });
   }

@@ -19,7 +19,8 @@ export class MatchesServiceService {
     const params = {
       date: date || new Date().toISOString().split('T')[0],  // Usar la fecha actual si no se pasa una fecha
       limit: '10',
-      countryName: countryName
+      countryName: countryName,
+      timezone: 'America/Argentina/Buenos_Aires'
     };
   
     return this.http.get(this.apiUrl, { headers: this.headers, params });
@@ -28,7 +29,8 @@ export class MatchesServiceService {
   getMatchesHome(): Observable<any> {
     const params = {
       date: new Date().toISOString().split('T')[0],
-      limit: '3'
+      limit: '3',
+      timezone: 'America/Argentina/Buenos_Aires'
     };
   
     return this.http.get(this.apiUrl, { headers: this.headers, params });

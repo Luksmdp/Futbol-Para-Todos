@@ -38,7 +38,7 @@
                   <div class="match-info">
                     <p class="mb-0 match-status">{{ getMatchStatus(match) }}</p>
                     <p class="match-time">
-                      {{ match.date | date:'shortTime' }} - {{ match.date | date:'shortDate' }}
+                      {{ match.date | date:'shortTime' }} - {{ match.date | date:'dd/MM/yyyy' }}
                     </p>
                     <p *ngIf="match.state.score.current" class="mb-0 match-score">
                       {{ match.state.score.current }}
